@@ -1,0 +1,475 @@
+PROFESSOR: Jessica Masters
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/1768830
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Gives good feedback
+REVIEW: You are assigned a chapter, an assignment, and a discussion every week (though discussions are optional later on in the semester). She likes to use ZyBooks, which can be a bit tedious, but her lectures make up for it, they are simple yet go very in depth.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Gives good feedback
+REVIEW: We were assigned one ZyBook chapter a week as well as an assignment and discussion (which are optional later on in the course). The ZyBook can be a bit tedious and confusing but her lectures made up for it. The videos were very simple yet still were very in-depth.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Clear grading criteria, Caring
+REVIEW: I've taken multiple online CS courses at CCSF, and this professor easily stands out in organization, engagement, and overall quality. The lectures are clear and well structured, and I've learned more in this class than I expected. Highly recommended.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Amazing lectures, Online Savvy
+REVIEW: Jessica Masters is an amazing professor who tries hard to make sure each student understands material! Each week is a new module that covers a new topic, such as Arrays, Loops, etc. It goes by very fast, but make sure you dedicate time to study the material! Each week, there are discussions and HW. Midterm and final are both projects up to you.
+
+---
+COURSE: CS111C
+QUALITY: 2.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Get ready to read, Lots of homework
+REVIEW: her class is very overwhelming she gives lots of homework, im currently having to put more than 5 days each week for this class. not easy class, the homework is hard to understand its not well put like craig, she doesnt want all ur code she wants you to break down ur code and she doesnt give good examples
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Excellent teacher. Very thorough notes for all learning styles (videos, slides, outside references). Lots of extra credit opportunity.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Caring
+REVIEW: Jessica is extremely knowledgeable, organized, and able to articulate complex concepts in a way that makes it easy for students to understand.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: EXTRA CREDIT, Amazing lectures, Gives good feedback
+REVIEW: #1 CS prof at CCSF. Incredibly thorough lectures on Youtube. Very detailed and prompt feedback on discussions and homework. Very accessible. Outstanding Java knowledge/experience. Your work will be rewarded. Highest possible recommendation.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Gives good feedback, Inspirational
+REVIEW: One of the best CS teachers there is. Highly knowledgeable, very personable, genuinely interested in helping you. I took several classes of hers and all were great and I learned so much. Take J Masters class with confidence.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: EXTRA CREDIT, Amazing lectures, Caring
+REVIEW: Prof. Masters is great. Take her if you can. She is extremely nice and really cares about our success. Plenty of extra credit opportunities. Her lectures are amazing and are a great guide to complete the homework/projects. Can work with others on homework/projects. I feel very skilled in every Java topic we covered. 11/10 class and prof
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: EXTRA CREDIT, Amazing lectures, Caring
+REVIEW: I took several classes with her. She is one of the best profs I encountered. Super knowledgeable and intelligent. The material was pretty dense and heavy at times, but the class took my Java skills to a whole new level.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Caring, Lecture heavy
+REVIEW: the only class where I didn't need youtube videos or outside resources. This is how Excellent she is at explaining the topics. Every aspect of the topic is thoroughly explained. Her lecture videos and slides are exceptionally well made and she goes beyond her way to make sure to help you if you had any questions.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: EXTRA CREDIT, Amazing lectures, Caring
+REVIEW: She gave us so many extra credit opportunities. Very possible that you end up with more than 100% at the end of the semester. Each exam was worth 15% of the final grade. 30% homework, discussion board participation 10%, and 3 little projects (review and practice of 1.array/list, 2.linked nodes, 3.tree data structure) are worth 30%.
+
+---
+COURSE: CS211S
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Inspirational, Caring
+REVIEW: By far the best professor at CCSF. Intelligent, humble, and kind. If you put in the work, she really goes out of her way to help you succeed. Remember that you're here to learn how to program (in Java). That's a big task. If the class isn't a challenge, you leave college unprepared. Her lectures are thorough and clear, and she responds quickly.
+
+---
+COURSE: CS211S
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Accessible outside class, Caring
+REVIEW: Best CS professor I've taken. Knows her stuff and runs her classes well. Class structure is clear, gives many opportunities to answer questions, and gives feedback promptly. Puts in a lot of effort and cares about her students. Only con: she talks very fast, so had to rewind lecture videos often. Take 211S for a solid project based Java class.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Inspirational, Caring
+REVIEW: Prof Masters is a true gem! Her online classes are neatly organized and video lectures are very comprehensive with lots of examples. You can feel that she really cares because she always promptly and extensively answers any questions. The assignments aren't too easy but give you reasonable practice. I feel much more confident with my Java skills.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Skip class? You won't pass., Amazing lectures, Lecture heavy
+REVIEW: I took Prof. Masters for CS 111C and 211S. I was really nervous about both of these classes because they sound hard, and they are, but I came out of them so confident that I understood the material. Her lecture videos are amazing and she is quick with feedback. She's more organized and on top of things than any other professor I've taken online.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Amazing lectures
+REVIEW: She is a great teacher that has a lot of knowledge to share. Extremely competent and knowledgable. She is also available and gives useful feedback to your homework. Her lectures are clear and comprehensive. The only downside is that she currently lives in East Coast, so watch out for the time difference :)
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Amazing lectures
+REVIEW: One of my favorite CS professors ever. As long as you put in effort to watch the lectures and do the homework/ participation with a good effort, the class is easy enough to pass. There was 4 projects, 2 exams, and a weekly participation + homework. Textbook was listed but not really required cause those video lectures cover much of what is tested.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Jessica Masters is the most amazing professor I've ever had, and I've had lots. She's super smart, super caring, and is amazing at teaching/lecturing (She has a PhD in computer science with specialization in education), so her lectures are very cohesive and explanatory. She always goes above and beyond for her students. She's an angel!
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Amazing lectures, EXTRA CREDIT
+REVIEW: Shes pretty awesome. Extremely organized and very responsive. Her lectures are so helpful you can skip the textbook to cover most material and get an A. (Most online classes in ccsf dont even have lectures, but she lectures every chapter.) The best way to prep for her MT/Finals are the participation problems (and HW), so make sure to attempt all.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Lots of homework, Clear grading criteria, EXTRA CREDIT
+REVIEW: My second course with Jessica, and her class was just as organized as the first one I took. Well organized and easy to stay on track. Lecture videos were great - you don't need the book! Homework coding assignments every week, 4 projects, a midterm, and final. Lots of opportunities for extra credit. I learned a lot in this class.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Lots of homework, Lecture heavy, EXTRA CREDIT
+REVIEW: Very good professor, lectures available on youtube so you can save them for later reference. The midterm was very difficult in my opinion, but the final was fairly easy, lots of homework but can usually be done over the weekend if you are lazy. A lot of TA hours, Very helpful. A lot of extra credit opportunity which is nice.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Group projects, Clear grading criteria, EXTRA CREDIT
+REVIEW: The most organized online class I have taken! Video lectures were engaging and easy to digest. Projects were interesting, challenging, and fun. Assignments were opened up 2 weeks in advance which allowed for working ahead. Grading was clear, generous, with ample opportunity for extra credit.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Lecture heavy
+REVIEW: Teacher is very easy, as long as you work hard, you will be fine. Great video lecture.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Lots of homework, Amazing lectures, EXTRA CREDIT
+REVIEW: Data Structures (Java). Amazing lectures on YouTube, lots of h/w for practice and extra credit. Lectures explain concepts well and she also gives tips on a lot of them. I truly appreciate how she is attentive to online discussions. There were many this semester each week and she answered just about every one of them quick! 10-12 hours weekly work
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Amazing lectures, EXTRA CREDIT
+REVIEW: My best CS professor ever. It's an online class, and you do need self-motivation for the weekly lectures and homework. Jessica provides AMAZING lecture videos (with her voice over them) which are really helpful and even if you forgot a topic, the videos are always there to refresh. Overall course is pretty organized and a lot of extra credit offered
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Inspirational, Amazing lectures, EXTRA CREDIT
+REVIEW: I took the credited cs111c and cs211 from Jessica. Those courses are online with videos and caption. Those videos and the test programs are so organized and just incomparable!!! She explains the difficult CS concepts with easily understanding way, and also give you test code for your coding HW.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Amazing lectures
+REVIEW: - Very organized on a weekly basis - Very active and responsive to students' questions and concerns - Amazing lectures that's easy to understand and follow in various formats (PDF, YouTube, sample code, websites and books) - You need to put in the reading and time to get the most out of her class
+
+---
+COURSE: CS211
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Caring
+REVIEW: Jessica is one of the nicest teachers I have ever taken. She knows Java inside and out, and can answer all of your questions thoroughly. She gives very detailed lectures via YouTube videos. There is one required group project of your choice, and a weekly discussion post. The assignments get more fun and more difficult as the semester goes on.
+
+---
+COURSE: CIS255
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Her lectures are so good. She goes step by step and make sure students get the main concept of the topics. Just do your homework regularly and check in with her time to time. If you are gonna submit assignment late or have some other trouble, just email her and ask nicely. She will arrange something to help you. A very nice teacher!
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Clear grading criteria
+REVIEW: Her online course was extremely well organized, she responds to all questions you have. I would take her again for sure. I already had CS experience so I didn't find it too hard, but still learned a lot. Don't procrastinate on homeworks and labs, because her and the other students are your best resource. Her notes and online videos are A+
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Skip class? You won't pass., EXTRA CREDIT
+REVIEW: This course prepares me well in transferring to UC Berkeley's CS program. Comparing with the workload of Cal's CS61B, this course is still easy to pick up. The response of the assignment from the graders are great. They don't just give you a grade, but also give you detailed recommendations for the subject matter.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Accessible outside class, EXTRA CREDIT
+REVIEW: Professor is awesome, Lots of extra credits to practice. I took her both CS111B & C. She explains very well and detail with behind the scene concepts. She is very responsive to the email and questions. However, be prepared to learn and put effort into the learning. Otherwise, you will be overwhelmed by assignments. If you want to learn, take her.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Lots of homework, Inspirational
+REVIEW: One of the best instructors I have ever worked with. Lots of interesting and diverse assignments, but if you are into coding would that be a bad thing????
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Amazing lectures, EXTRA CREDIT
+REVIEW: I love her CS111C class. The videos are clear and easy to follow. You want to read ahead before jumping into the videos and exercises. The quizzes are followed after group exercises where you can ask questions and help others out. There are extra credits for most of the homework. Her class is also very useful for job interviews.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Amazing lectures, EXTRA CREDIT
+REVIEW: Out of all the professors I've taken for computer science, she's the best! Every week, there is a new topic, and there's always extra credit for ever homework and labs. The extra credit is doable and fun (if you like coding). The final and midterms are all open notes, web, everything! I learned a lot in her class than man 111A and 111B combined.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Lots of homework, Amazing lectures, Caring
+REVIEW: Masters is easily the best CS professor! if you have a strong CS background her online cs111C class will be a lot of fun for you, she gives both online notes, video lectures, book chapters to read, and she answers super fast to the forum posts! she does give a lot of work tho! but if you love what you do you will be fine.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Amazing lectures
+REVIEW: I totally recommend Jessica masters !! She makes sure that everyone in the class understood the lecture (She keeps asking 1000 times if any one has a question.) Response quickly to emails with enough details Disponible She codes like a God. makes you LOVE Java :)
+
+---
+COURSE: CIS255
+QUALITY: 2.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: Lots of homework
+REVIEW: Masters teaching structure is okay at most. Video lectures progress at slow pace, and her responses on forums do take while. When she does respond, except a one sentence response. Week by Week Layout, makes it hard to be ahead of the game. Forum & Quiz Due Tuesday. Project on Fridays. Mmm, poor video capturing software and mic for online lectures.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, Accessible outside class, Clear grading criteria
+REVIEW: Jessica Masters is a great teacher if you want to learn. I learned so much in the two classes I took from her, 111C and 211S. I had to work really, really hard, but it was work that taught me stuff, not busy work at all. I would take any class she teaches and highly recommend her, if you have the time and desire to learn Java, she is the best.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Lots of homework
+REVIEW: Her videos are amazing, clear, and understandable. Lectures are easy to follow. The speed of replying email is fast than you think as well as reply in insight. There did have a lot of homework, because it was summer class, and summer class is short. Since I had great experience in B, I am taking C with her without doubt. :)
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Amazing teacher and great course. Video lectures were really helpful for an online course. There are practice questions you can answer and get feedback on before doing the homework each week. She provides helpful and quick responses to any question. Very clear homework assignments. You will get a lot out of this what you put into it.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: The class was great! The teacher is the one of the best! The given material is essential for any future job interview. Lots of homework, but practice is the best master for good result. After several interviews you will want to retake this class again and again.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Very clear instructions. Very helpful. You know what you are gonna do in the assignment, unlike others.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Plenty of extra credit. Great assignments. Super helpful. Lots of work, and great practice to learn the material. Fantastic communication skills, super supportive. Fair grader. You'll get out what you put in.
+
+---
+COURSE: CS111C
+QUALITY: 4.5
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Super organized. Textbook, plus excellent online notes, also hours of youtube videos. Tons of homework. Prepare to spend a long, long time on this. However, you'll be learning, and she is totally there for you. She logs into InSight super often, and is responsive via email. Fair grading. Tests are 4 hours long, but always have enough time.
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Great teacher who is willing to help you understand and learn programming. Most fun assignments that will have you loving java before you know it
+
+---
+COURSE: CS111C
+QUALITY: 1.5
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: avoid her! TOO MUCH ASSIGNMENTS! so hard!
+
+---
+COURSE: CS111C
+QUALITY: 2.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Do not take her. You will spend hours on the assignments. You will have 2 assignments a week and will need to read about 2 chapters or more a week from a book that has incomplete sudo code as examples. Too much of a tough grader and too much busy work, it really took away the joy from programming.
+
+---
+COURSE: CS111C
+QUALITY: 1.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: BUSY WORK GALORE Computer Science classes should NOT involve rigor to the scale that Jessica Masters approaches. Never in my 2 years of CS have I experienced a class with anywhere NEAR this amount of unnecessary busy work.
+
+---
+COURSE: CS111C
+QUALITY: 2.5
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: As a comp sci major, this is my sixth online comp sci class at CCSF. Rigor of this particular class was absolutely ridiculous. The most difficult comp sci teacher & class that I have ever come across. Painstaking assignments (2 per week) take hours to do (for normal comp sci classes, a typical weekly assignment takes only minutes to complete)!
+
+---
+COURSE: CS111C
+QUALITY: 3.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Masters has not done enough to ensure continuity from the previous course. Moves very fast, teaching concepts while unnecessarily testing you simultaneously. 12-15 hours of work each week. She's responsive to forums, but a horrible book with choppy questions make this class unpleasant. You're basically teaching yourself with poor curriculum.
+
+---
+COURSE: CS111C
+QUALITY: 2.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: While it's great that she leaves feedback about assignments, she doesn't provide enough project specifications. So you receive walls of errors of her nitpicking invisible requirements - the grades match too. If that sounds like fun or you're a mind-reader, definitely register. This is coming from a 4.0, not a lazy student.
+
+---
+COURSE: CS111C
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Please dont take. She steals everything from the book, and book is horrible. She doesnt explain anything. Doesnt give feedback. Please dont take her, she is not a good teacher. She doesnt grade, her TA's do all her work.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Amazing professor all-around. She will guide you but not coddle you. Very clear instructions and good class direction. Expect a lot of reading and difficult homework to learn the material. The upside is that tests seem easy by comparison. Very intelligent, personable, and effective instructor. Highly recommended!!!
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: She is a very serious teacher in that a deadline is a deadline. She is also a compassionate teacher who wants her students to pass and understand the material. Make no mistake: online courses with Jessica Masters are difficult and the study/homework time required per week can take over 12 hours, so be prepared to take her classes seriously!
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: She's new, but one of the best profs in the CS dept. Really clear, concise, and knowledgeable. She also responds to emails and forum posts quickly. Take her if you can.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Awesome teacher, Took her last spring for java 3 Online and she was phenomenal. I don't know why she doesn't teach full time, because she would be absolutely amazing. Take her online class and you won't regret, I learned SO much and feel more smart!

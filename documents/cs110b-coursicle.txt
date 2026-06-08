@@ -1,0 +1,22 @@
+# Course-centric source: each review names its own PROFESSOR (Coursicle lists many
+# professors per course page). Only the publicly-visible reviews were captured; the rest
+# are behind "Read all 63 reviews". No per-review quality/difficulty shown on this page.
+
+PROFESSOR: various
+DEPARTMENT: Computer Science
+COURSE: CS110B
+SOURCE: Coursicle https://www.coursicle.com/ccsf/courses/CS/110B/
+
+---
+PROFESSOR: David Harden
+COURSE: CS110B
+QUALITY: n/a
+DIFFICULTY: n/a
+REVIEW: Harden's class is MUCH more difficult than the other teachers' classes. Mandatory forum discussions. Quite picky regarding the code on his assignments, and a tough grader as well. Worst of all, his CCSF Insight-based online class doesn't even use Insight at all. Every webpage in the online class is just a link to his personal external site+forum
+
+---
+PROFESSOR: Indika Walimuni
+COURSE: CS110B
+QUALITY: n/a
+DIFFICULTY: n/a
+REVIEW: He goes above and beyond! Prof. Walimuni has mentored 10 students (including me) to get summer internships. He even helped me revise essays step-by-step during his winter break. His guidance on the CCI/CTI programs was invaluable. If you want a career in CS, take his class. He genuinely cares about our future success.

@@ -1,0 +1,251 @@
+PROFESSOR: Max Luttrell
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/1986437
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, Clear grading criteria
+REVIEW: Best C++ fundamentals course!
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Lots of homework, Caring
+REVIEW: Although textbook wasn't always required, it was very helpful, but he has slideshows that have less depth but still good. Easy to work with and you can tell he cares about how his students do. His curriculum is easy to follow and understand. One assignment a week with a discussion post (Spring 2025). Definitely one of the best CS Teachers at CCSF.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, EXTRA CREDIT, Accessible outside class
+REVIEW: Professor Luttrell is awesome. His content is extremely well organized and he is very awesome and helpful to talk to during office hours. I particularly enjoyed his examples in his lectures since they were really fun, relevant, or quirky (e.g. Bay area airports/sports teams, Pokémon references). Take his class!!!
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters, Gives good feedback
+REVIEW: Swell! Professor's video lectures are straightforward. Because of that, what helped me is note taking every detail on every concept, so I could apply them to homework and tests with full awareness over potential errors and overall engineering a masterpiece. I am also wowed by his diligent feedback. Really helped me learn - will be for you too.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Gives good feedback, Lots of homework
+REVIEW: Professor Luttrell is an excellent teacher! His course is very organized and provides really good explanations to all the topics. He is always there to help and explain anything you ask him. You should definitely take his class if possible!
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Respected, Accessible outside class
+REVIEW: Mr. Luttrell's class is a very good introduction to C++. His lectures are concise, and they do a good job of helping you understand the concepts in C++. He personally responds to all the discussion posts and is very quick in helping you recognize your errors. Overall, a very good teacher to learn C++ from.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Online Savvy
+REVIEW: Not only did he make learning C++ easy and approachable, but he's one of the few CS teachers at this school that actually records full lectures for each topic every week. His videos are short and extremely clear and easy to understand. My C++ teacher this semester following his class is using his videos lol. Great feedback, great teacher.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Gives good feedback, Test heavy
+REVIEW: Highly recommended for learning C++ at CCSF. He knows the material inside-and-out, and is quick to answer any questions on discussion boards and by direct messages. The assignments and twin midterms can, at times, be quite much, but he allows a lot of time for finishing exams, which are also open-book and open-Internet. Grading is also very fair.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Participation matters, Inspirational
+REVIEW: I heard many good things about Luttrell and he is the best professor I've ever had. Clear lectures, challenging homework and always checks for understanding. He is also very nice, kind and caring. His tests are based on the homework so there's no surprises. He should teach CS270 too!
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Amazing lectures, Caring
+REVIEW: He knows his C++, and has very helpful lecture videos and slides for you. Assignments are very straightforward, and if you ever need help, he is able to explain things easily and is very understanding. He also allows older version of the textbook, as well as enough time for exams.
+
+---
+COURSE: CS112
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Amazing lectures
+REVIEW: This was my first course at CCSF, so I have very little to compare with. I graduated with a Mechanical Engineering degree in the 90s and now taking classes to create an app. Prof Luttrell is excellent. His recorded lectures are clear and specific. His assignments and exams are straight forward. You learn a lot in a short time.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Accessible outside class
+REVIEW: I'm not even half way and I can tell how professor Luttrell has stepped up his game during COVID 19. Such a great professor, he is really good at giving directions and won't leave students hanging if they have a question as other CS professors from CCSF.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Inspirational, Caring
+REVIEW: Took Max for CS110B and CS110C. He is one of the kindest professors out there. Lectures are crystal-clear, and if you are ever stuck on a concept, his explanations are extremely helpful. He even allowed us to use an older version of the textbook (free online PDF) because he didn't want us to buy the newer edition. What a legendary professor! :)
+
+---
+COURSE: CS110C
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: If you want to pass your CS classes, this is the place. However, if you want to prepare yourself for an advanced degree or the job market, keep moving. For Max teaching is just a job and a paycheck, and CCSF has overly simplified its CS curriculum to the point of irrelevance, so you'll pass easily enough; just don't expect to learn anything.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Clear grading criteria
+REVIEW: Luttrell makes a hard class easier by explaining difficult topics in great detail, though his class was far from a walk in the park i.e homeworks. I don't care how confused you are on a topic, when you ask Luttrell he is quick to answer and will make sure you understand what's going on. He's also a lenient grader on homework and tests
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Clear grading criteria, Amazing lectures
+REVIEW: Class was always lecture followed by an activity in the second half of the class after a break. Midterms and Finals are all completely fair & no curveballs were given. Everything was totally fair until the latter half of the homeworks. His homeworks be hard yo, but totally doable if you're a good coder, unfortunately for me I was not. Still a gem.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Inspirational, Amazing lectures, Lecture heavy
+REVIEW: Max is the best teacher I've ever had, bar none. Grandiose claim perhaps, but I mean it. No matter how tired I felt on any given day, even if I was sick or just having a terrible day, I was always so, SO excited to go to his class. He didn't just teach me to program, he taught me to believe in myself. Before I start getting emotional: TAKE HIM!!!
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Amazing lectures
+REVIEW: Max is one of the best CS teachers here at CCSF. I took him for CS110B and CS110C, and I learned a lot. CS/programming is very difficult to teach but he nailed it! His passion for CS and teaching is obvious-- he makes difficult programming concepts easy to understand and lectures are always interesting, inspiring, and important. Thanks Max.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: His class is very efficient and he explains everything in a very understandable way. Start doing homework before due date so that you will have time to ask whatever you don't understand. Try to turn in your homework on time. Midterms are tough, because you cannot use computer, however it is open book. Overall, I highly recommend his class.
+
+---
+COURSE: CS110B
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Class 2x a week, went as followed: day 1 lecture --> day 1 in class exercise --> day 2 lecture --> day 2 in class exercise --> hw due next class --> repeat. The hw has elements from the in class exercises; however, I wish he gave more examples in class. He really requires you to think. Grade was 5% participation, 25% hw, 40% midterms, 30% final.
+
+---
+COURSE: CS112
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Amazing lectures, EXTRA CREDIT
+REVIEW: Max is a great teacher! I took iPhone class for totally beginners, I did't know anything about programming, and I wrote my first apps during this class! I'm so excited! Max explains everything clear, but if you don't understand something, he will help. His classes are interesting, and you will learn a lot.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback
+REVIEW: Very easy class with materials and ideas presented very clearly. Easy to understand and notes are very accessible both offline and online. Only need to memorize few things to really understand the concepts
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Skip class? You won't pass.
+REVIEW: Very friendly guy, made this complicated material much easier to understand. Textbook use is little to none. Only 8 assignments over the year, lowest score dropped. 3 tests, all count. Go to class, the homework frequently utilizes material from the in-class exercises, so the homework will be much harder if you skip and try to rely on the textbook.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Inspirational
+REVIEW: In my opinion, he is the MOST qualified professor to be teaching in CCSF. He has so much experience and mastery over the material that mostly everything he covers is so clear. He is prompt with class, emails, questions plus is a very friendly guy. Don't let his lack of teaching experience fool you, this guy teaches like a pro. Seriously, take him.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Textbook use is limited, but it can be helpful for some homework assignments and concepts. Homework can be time consuming, and make sure you have access to a good g++ compiler or debugging will be very troublesome.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: CS 270 is a very difficult class to teach, but Professor Luttrel makes everything crystal-clear and will always stop the class to check for understanding. Ask him a question and he will make sure you understand it fully before you leaving the classroom. His homeworks can be tough. Go to class, take good notes, and you should have no problem.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I love this Professor his the best C++ Professor ever. I am going to take all his classes just because I am learning. U should take him just do it u won't regret it. u will have Homework every Tuesday if u take all of his lecture and u do all of the in class exercises u will be fine in the HW and in the tests.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Lecture topics are clearly outlined on slides, available outside of class, too. Textbook is useful if you are interested in exploring any concepts further, as the class only covers broad elements; some details are skipped. Offers great feedback on homework, and help in-person and email.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He is the best C++ teacher ever! he is very clear and helpful. I learned a lot from his class.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Awesome professor, very helpful, clear, and an easy grader. His homework can be difficult, but his tests are straightforward.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He is a great teacher!!!!!!!!!!!!!

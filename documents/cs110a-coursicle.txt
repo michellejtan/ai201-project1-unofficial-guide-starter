@@ -1,0 +1,22 @@
+# Course-centric source: each review names its own PROFESSOR (Coursicle lists many
+# professors per course page). Only the publicly-visible reviews were captured; the rest
+# are behind "Read all 117 reviews". No per-review quality/difficulty shown on this page.
+
+PROFESSOR: various
+DEPARTMENT: Computer Science
+COURSE: CS110A
+SOURCE: Coursicle https://www.coursicle.com/ccsf/courses/CS/110A/
+
+---
+PROFESSOR: Hanan Ibrahim
+COURSE: CS110A
+QUALITY: n/a
+DIFFICULTY: n/a
+REVIEW: Very chaotic for an online class. Homework & labs sometimes had many bugs or contradicting directions that took at least an hour to two figuring out. When aksing for help, sometimes never replied. The sample codes she gave also had bugs most of the time. Final was on-campus unlike most online where it is open-book at home. Would NOT recommend!
+
+---
+PROFESSOR: Erez Morag
+COURSE: CS110A
+QUALITY: n/a
+DIFFICULTY: n/a
+REVIEW: He is the teacher I am looking forward to. Homework is more advanced than what is taught in class, so we basically think first and then learn. The point is he will make you understand it. This teaching model is the most suitable for programming classes. If you want a teacher to only follow the books, then all you need is just a book, not a teacher!

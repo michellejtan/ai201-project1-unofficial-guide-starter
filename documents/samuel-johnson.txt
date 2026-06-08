@@ -1,0 +1,387 @@
+PROFESSOR: Samuel Johnson
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/2306878
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He uses almost none of his own work and other youtube videos from other people. He expects the students to do their own work but he does none of his own work. He's worried about students plagiarizing but he plagiarized all of his work.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Inspirational, Hilarious
+REVIEW: Looks like he's still writing his own reviews funny guy
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, Clear grading criteria, Lots of homework
+REVIEW: I think the bad reviews of Johnson are either a bit exaggerated or old. I think this was a fine class and got a decent introduction to assembly and computer architecture. While the course is a tad unorganized, the generous grading and deadlines make up for it and make getting an A doable without internalizing the content if you don't want to.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Inspirational, Caring
+REVIEW: Cont. This class includes many labs, discussions, and interactive simulations, most of which were enjoyable. As a visual learner, I liked the chess lab, and the tree and graph simulations. He's generous with deadlines, no penalties for late work. He was also lenient with simulations and curved the final due to Canvas issues this semester.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Inspirational, Caring
+REVIEW: He's one of the best CS teachers I've had. He explains concepts clearly and focuses on the theory rather than just how to code it. I like this approach better! He goes through the material thoroughly in lectures. Don't be discouraged by bad reviews, class participation isn't mandatory, as he's very accommodating to students with social anxiety.
+
+---
+COURSE: CS270
+QUALITY: 4.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Caring, Accessible outside class
+REVIEW: I took this class in the fall. It was tough, and the lack of interaction made it harder. I often felt lost and regret letting bad reviews stop me from going to his Zoom office hours for help. He's actually a great and caring teacher who knows the material well. As others have stated, grading is slow but understandable since he doesn't have TAs.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Hilarious
+REVIEW: Don't even bother lol
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Hilarious
+REVIEW: Worst professor of all time. He's a funny guy, but when it comes to work ethic, it's a joke, and the funniest part is that he writes his own reviews. He never grades any assignments until the end of the semester. He always has an excuse for why he didn't see your email and gives you an attitude when you follow up. How is this guy not fired LMFAO.
+
+---
+COURSE: CS111C
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: It seems like every time he starts his class that he doesn't have any sort of lesson plan in mind. He always just seems to wing it and go by the seat of his pants. That usually entails him trying to pull teeth from the students in the class trying to get them to participate. Nobody does because he embarrasses anybody who's wrong.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Get ready to read, Hilarious
+REVIEW: its dec 23, nothing been graded yet. the worst cs teacher ever, he pretends he cares but he laughs at you on zoom if you ask for help. all assignments dont make sense, you learn nothing from this class because he doesnt teach 0/10
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Lecture heavy, Test heavy
+REVIEW: "Only include what is explicitly required and avoid adding unnecessary features (like printing some output)" It's so sad to see he's still writing fake reviews to boost his own ratings. The professor has been told many times that his tone is condescending and should change it. Please grow as a person first, before trying to teach others.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Get ready to read, Lots of homework
+REVIEW: he is the definition of "if you cant do, teach" everything from his class is stolen content from youtube and statements from websites/real cs instructors. none of the content is his own. if you go to his office hours for help, he will belittle you and make you feel its your fault you dont understand, then he gets mad when students use ai
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Test heavy
+REVIEW: Probably one of the worst teachers at CCSF. It's already the end of the semester and he has not graded any of the assignments. He keeps posting that he is busy with other stuff and does not grade.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: "Accessible outside of class" sure but why would anyone want to reach him outside of class when he's always putting the students down? He is also constantly canceling classes and meetings because he's "sick". He's sick so often maybe he should just retire because he clearly does not enjoy being a teacher.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He doesn't actually teach us anything. He uses YouTube videos in place of actual modules, which are so disorganized and have no discerning order. He's rude, disrespectful, and condescending. He expects respect but gives none. Everytime a bad review shows up a "good" one is submitted. He should not be a teacher if he doesn't event like students.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Tough grader, Participation matters, Accessible outside class
+REVIEW: The assignments are manageable but you need to follow the instructions carefully. Only include what is explicitly required and avoid adding unnecessary features (like printing some output). Write comments to explain your logic. Keeping your work simple and to the point will help you earn full credit. The exams are also fairly straightforward.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: The Canvas modules are unorganized, confusing, contain many typos, and mostly consist of links to external websites & YouTube videos. Assignments and exams almost always contain nonsense requirements that he *will* take off points for. Join the CS club discord server to see examples. This class is very easy while being very frustrating.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Accessible outside class, Online Savvy
+REVIEW: One of the easiest classes ive taken and inspires you to do more. Learned MIPS assembly in this class and was very helpful to do outside research on x86/x64. The homework's and tests are easy if you read/watch all lectures, although it was easy I actually learned something. Always accessible and if you actually talk to him he is nice.
+
+---
+COURSE: CS111C
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Get ready to read, Graded by few things
+REVIEW: u can tell this guy probably writes his own reviews just by the looks of it and the dates of some. His attitude is very condescending makes u feel like you're being talked down to. if you want to actually take a course where the instructor has less of an ego, take someone else because there are options. Otherwise, expect to teach yourself.
+
+---
+COURSE: CS111C
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Inspirational, Caring
+REVIEW: Pr. Johnson made me love Data Structures. He motivated me to overcome tough topics and not be afraid to make mistakes. His approach is inspiring, encouraging exploration of extra materials and understand concepts on deeper level. He makes the challenging class stress-free. If you do you work, you get your A. He is also understanding and flexible.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Get ready to read
+REVIEW: No one should ever take any classes from this professor. His lack of understanding is only overshadowed by his rudeness. He takes no accountability for his own faults and he will always place blame on the students. Very little feedback and he is consistently late on grading anything. Modules are disorganized and are difficult to muddle through.
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Hilarious
+REVIEW: I am so sad that I took this course. The content isn't that difficult but having Professor Johnson as an instructor makes it difficult. Everything everyone has said thus far is true. His online courses are a complete mess and I can tell he does not have passion for his students. It takes a LONG time for him to grade and he rarely provides feedback.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Get ready to read
+REVIEW: Took the class online, fairly easy course. Johnson modules are unorganized and sometimes confusing. Incredibly condescending when talking to during office hours. Not really sure if I learned much. The assignments were easy and the tests questions were hard, but curved immensely. I would take the course, if you plan to transfer if you're CS.
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Worst instructor at CCSF in 8 courses. Class is built from other peoples YouTube videos. Assignments are trivial to complete. No programming assignments graded until well past midway in the semester. No feedback for random point deductions. Midterms and Final graded TWO WEEKS AFTER END OF SEMESTER! Avoid at all costs.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Inspirational, Accessible outside class
+REVIEW: Sam is a genuinely kind & real person who just seems more eager to guide in a live setting rather than hand-hold people who won't take time to reinforce/research. Students are under-appreciating this class in a flawed quest for an impersonal & meaningless A. If you take a non-contrived interest in the topic, it's impossible not to get a good grade.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: It's a week before when the final is supposedly is, but the last announcement was weeks ago. It's very frustrating when the expectations for the students are up in the air every week. We're still waiting for assignments from mid-October to be graded. We just had surveys submitted but I doubt anything will happen to him, or anything will be fixed.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Two months into the class and not a single assignment has been graded. The lectures have not kept up with the modules, so are 1-2 weeks behind what we are working on. I ask a question in the lecture about something very specific and get an answer about something completely different. I clarify my question and get the same answer as if I'm an idiot.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Get ready to read, Lots of homework
+REVIEW: We just had our first exam but NONE of our assignments have been graded. None of our emails have been answered. On zoom you can see that he has over 60 unread emails in his inbox in canvas. He's condescending and expects us to attend his lectures, even though people work. If no one asks questions within a minute of silence, he mocks us.
+
+---
+COURSE: CS270
+QUALITY: 2.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Get ready to read
+REVIEW: Lots of external readings and videos. He overexplained simple things and leave the difficult details unattended. Your first few grades only come in the latter half of the semester. You will have to do labs without knowing if you did your earlier labs right. He does compensate for late gradings by giving 20 free points in the final.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Lecture heavy, Test heavy
+REVIEW: He never be on time to answer students' questions and never be on time to grade their lab assignments, also, in each module requires lots of readings and less lectures.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: With Johnson, it is easy to get an A but is hard to learn anything. He pretty much gives you grades for free because he knows that you won't be able to pass otherwise. You deal on your own with difficult technical concepts seasoned with a ton of typos and mistakes. If somehow it was my first CS class, I might have given up on the major altogether.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Here is a question that appeared on one of our lab assignments, verbatim: "Write the label of the loop that is accessing the register which originally had the first parameter passed to the sort function moved into it." This terrible sentence encapsulates Johnson's CS 270 lecture pages: confusing, incoherent and just plain bad. Take someone else.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Few graded assignments, meaning getting a decent grade is possible. However, actually learning from him is difficult. He communicates in a obtuse/incoherent way that makes reading his lecture pages very unenjoyable. If you are self-motivated and can read the textbook on your own for a semester, then I recommend this class. Otherwise, stay away.
+
+---
+COURSE: CS270
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: Lecture heavy
+REVIEW: This class was a disaster. Canvas modules basically consist of links to books, articles, and other pieces of information scattered around the net. It is a hell of a work to get the puzzle together. The due dates jump back and forth without any announcements. Weekly assignments are "color the rectangle with the color you like"-kind, exams are hard.
+
+---
+COURSE: CS110A
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class
+REVIEW: Took his class during the pandemic. His online class is decent. Available during class time. A lot of videos and no live lecture and a lot of self teaching with the materials he provided.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: EXTRA CREDIT
+REVIEW: You are better off taking the Coursera online couse "python for everybody" than spenting so much time going to the classroom. I have to sit in the far back of the class because he talks really loud. Very unpleasant course experience.
+
+---
+COURSE: CS131B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class, Clear grading criteria, Amazing lectures
+REVIEW: Excellent learning curve to understand Python. Professor clearly understands how to deliver material for any type of learner and any level of use. Material is clearly presented, tests and assignments are helpful. This class was like a super-boost and I feel like I understand Python very, very well. Highly recommended for CS students.
+
+---
+COURSE: CS110B
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Amazing lectures, Caring
+REVIEW: Excellent academic experience. Understands the student learning experience very well and provides overwhelming amount of support to encourage learning and earning a good grade. Notes are important. Asking questions is important. Even when I was very confused this professor always spent the time to ensure I understood the concept as long as I asked.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class, Participation matters
+REVIEW: Sam is a strange guy but overall nice and funny. He isn't a tough grader, and allows you to bring notes to the final. He is a smart guy and will answer your questions, but the course itself is lean. If you already have a strong basis in algorithm fundamentals you won't learn much. The first half of the semester requires you to take attendance quiz.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, Accessible outside class, Amazing lectures
+REVIEW: He's a good teacher. In my opinion the way he teaches makes the lectures easier to understand. There are 5 labs that are not to hard. Some are very easy and he actually gives you the whole code and you just need to edit or add something
+
+---
+COURSE: CS131
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Amazing lectures, Caring
+REVIEW: Perfect introduction to programming. Prof. Johnson's explanations of Python language and syntax allows you to focus on programming concepts that provide the foundation to success in later coursework, intermediate programming courses in C++, Java, or Advanced Python. You can tell from his lectures that he cares about both the course and students.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Clear grading criteria, Amazing lectures
+REVIEW: Professor Johnson's CS110C provided clear and detailed lecture notes that allowed you to both understand the data structures and algorithms in C++ and gave you the understanding to perform exceptionally on the exams. He is extremely generous with his time and office hours to meet with you and answer any questions and help with any assignments.
+
+---
+COURSE: CS110C
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: Accessible outside class, Graded by few things, Lecture heavy
+REVIEW: WORST cs professor ever. Loud and condescending, lectures are torture. Glosses over the complicated parts and over-explains the simple things. Refuses to answer questions, teaches right from the book nothing more. Only 5 assignments. Tests are open note and labs are easy (done in one day). An easy A, but not a fun one. If u like cs, dont take him!!
+
+---
+COURSE: CS111C
+QUALITY: 2.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: Clear grading criteria, EXTRA CREDIT, Lecture heavy
+REVIEW: Easy A as he is a very lenient grader. Seems very inexperienced in Computer Science and often has issues posting grades on time and answering student questions successfully. Tests are majority of the grade and comprise of very simple questions often with up to 50% E.C. Projects are normally very short (1/2-2hrs) and don't require the textbook.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class, Clear grading criteria, Caring
+REVIEW: He is a really nice caring teacher. He goes into detail when he teaches and goes slow enough for all students to learn and understand what is being taught. Exams are open notes. Attend class, pay attention to his lectures, take notes and you'll get an A.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Test heavy, Amazing lectures
+REVIEW: He teaches good, but his assignments are kinda hard. I think his grading for homework is easy tho. His test is MC and write code (on paper). What's good about that is he just gives full credit for the writing portion. So the most crucial part of your grade is MC. You have to answer correctly cause it's probably the only thing lowering your grade.
+
+---
+COURSE: CS111C
+QUALITY: 4.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Tough Grader, Get ready to read, Amazing lectures
+REVIEW: Had a great learning experience with professor Johnson. Very detailed in his teaching objectives, mostly because he wants us to grasp the concept of different strategies there is to design a program. The labs are tough but definitely worthwhile towards your cs career.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: Lecture heavy
+REVIEW: He is nice but he left most of the work till the end of the semester not allowing students to ask questions about the remaining homework. He also did not follow some of his directives on the sylllabus

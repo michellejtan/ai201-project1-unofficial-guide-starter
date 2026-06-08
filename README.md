@@ -14,6 +14,16 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+Computer Science professors and course reviews at City College of San Francisco (CCSF) — student
+opinions on individual CS instructors and the courses they teach (CS 110A, CS 110B, CS 111C, CS 270,
+etc.), plus the official course catalog as a factual baseline to contrast against.
+
+This knowledge is valuable because CCSF's official catalog lists what a course covers but says nothing
+about *how it's actually taught* — which professor explains programming concepts clearly, how heavy
+the coding workload is, whether exams are fair, or whether students would take the instructor again.
+That lived experience only exists in student-written reviews scattered across rating sites, and it's
+exactly what a student needs when choosing both a course and a section during registration.
+
 ---
 
 ## Document Sources
@@ -24,16 +34,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | RateMyProfessors — Aaron Brick (63 reviews; Python, C++, Java, Unix) | Professor reviews | https://www.ratemyprofessors.com/professor/1609317 → documents/aaron-brick.txt |
+| 2 | RateMyProfessors — Jessica Masters (59 reviews; Java, data structures) | Professor reviews | https://www.ratemyprofessors.com/professor/1768830 → documents/jessica-masters.txt |
+| 3 | RateMyProfessors — Samuel Johnson (48 reviews; assembly, Python, C++) | Professor reviews | https://www.ratemyprofessors.com/professor/2306878 → documents/samuel-johnson.txt |
+| 4 | RateMyProfessors — Max Luttrell (31 reviews; C++) | Professor reviews | https://www.ratemyprofessors.com/professor/1986437 → documents/max-luttrell.txt |
+| 5 | RateMyProfessors — Daniel O'Leary (21 reviews; Python, SQL) | Professor reviews | https://www.ratemyprofessors.com/professor/2275541 → documents/daniel-oleary.txt |
+| 6 | RateMyProfessors — Jonathan Potter (15 reviews; CS270 architecture, Python) | Professor reviews | https://www.ratemyprofessors.com/professor/2445727 → documents/jonathan-potter.txt |
+| 7 | RateMyProfessors — LaDawn Meade (6 reviews; Java, Python) | Professor reviews | https://www.ratemyprofessors.com/professor/2332544 → documents/ladawn-meade.txt |
+| 8 | Coursicle — CS 110A course page (2 reviews, multiple professors) | Course-level reviews | https://www.coursicle.com/ccsf/courses/CS/110A/ → documents/cs110a-coursicle.txt |
+| 9 | Coursicle — CS 110B course page (2 reviews, multiple professors) | Course-level reviews | https://www.coursicle.com/ccsf/courses/CS/110B/ → documents/cs110b-coursicle.txt |
+| 10 | CCSF official CS catalog (30 course descriptions) | Official catalog (factual baseline) | https://www.ccsf.edu/academics/ccsf-catalog/courses-by-department/computer-science → documents/cs-catalog.txt |
 
 ---
 
@@ -46,13 +56,28 @@
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** One record per chunk — there are two record types:
+- **Review chunk:** a single student review (typically ~150–400 characters), prefixed with the
+  professor and course and suffixed with the attribute tags, e.g.
+  `Review of Professor Max Luttrell for CS110B: <review text> [tags: Amazing lectures, ...]`.
+- **Catalog chunk:** a single official course entry (course code, title, units, prerequisites, and
+  the catalog description), e.g. `Official CCSF catalog entry for CS110B (Programming Fundamentals: C++)...`.
 
-**Overlap:**
+**Overlap:** None (0). Each record is an independent unit; overlapping across two reviews would blend
+two different students' (or two professors') opinions into one chunk and pollute retrieval.
 
-**Why these choices fit your documents:**
+**Why these choices fit your documents:** This is a review-heavy corpus, not long-form prose. Each
+RateMyProfessors review is a self-contained one-to-three-sentence opinion tagged with a professor and
+course, so the review *is* the natural boundary — splitting mid-review would tear an opinion in half.
+Preprocessing: stripped the page chrome (the "Helpful" button, thumbs-up/down counts, dates,
+attendance/textbook flags) and kept the review text plus structured fields (course, quality,
+difficulty, would-take-again, tags). The professor/course is embedded into the chunk text (not just
+metadata) so generic praise like "great teacher" can't be retrieved for the wrong professor. The
+official catalog is chunked the same way (one short entry = one chunk) but kept as a separate,
+clearly-labeled record type so factual course descriptions don't compete with opinion reviews.
 
-**Final chunk count:**
+**Final chunk count:** 277 expected — 247 review chunks (across 7 professors + 2 course pages) + 30
+catalog entries. (Confirm by running ingestion in Milestone 3.)
 
 ---
 

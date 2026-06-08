@@ -1,0 +1,248 @@
+# OFFICIAL CATALOG SOURCE (factual, not opinion). The parser treats TYPE: catalog entries
+# differently from reviews: each entry becomes one chunk describing the course officially,
+# with metadata type=catalog and professor=n/a, so it answers factual course questions
+# (topics, prerequisites, units) without polluting opinion retrieval over the student reviews.
+
+TYPE: catalog
+DEPARTMENT: Computer Science
+SOURCE: CCSF official course catalog https://www.ccsf.edu/academics/ccsf-catalog/courses-by-department/computer-science
+
+---
+COURSE: CS10
+TITLE: Introduction to Computer Science
+UNITS: 4
+PREREQ: Intermediate algebra or higher
+ADVISE: Readiness for college-level English or ESL 188
+TRANSFER: CSU
+DESCRIPTION: Broad introduction to fundamental concepts in computer science. Investigate how computers store and transmit information, how to solve problems with computers by designing and implementing algorithms, and how computing fits into larger social issues.
+
+---
+COURSE: CS110A
+TITLE: Introduction to Programming and Computer Science
+UNITS: 4
+ADVISE: (Intermediate algebra or higher) and (Readiness for college-level English or ESL 188)
+TRANSFER: UC/CSU
+DESCRIPTION: Broad introduction to fundamental concepts in computer science. Investigate how computers store and transmit information, how to design and implement algorithms using a programming language, and how computing fits into larger social issues.
+
+---
+COURSE: CS110B
+TITLE: Programming Fundamentals: C++
+UNITS: 4
+ADVISE: CS 10 or CS 110A or MATH 108
+TRANSFER: UC/CSU
+DESCRIPTION: This course covers programming fundamentals using the C++ language, using procedural and object-oriented approaches to problem solving. Topics include structured elements, classes, objects, references, dynamic memory allocation, inheritance, polymorphism, arrays, pointers, files, design and implementation of abstract data types, in numerical and non-numerical applications.
+
+---
+COURSE: CS110C
+TITLE: Data Structures and Algorithms: C++
+UNITS: 4
+PREREQ: CS 110B
+TRANSFER: UC/CSU
+DESCRIPTION: The analysis and design of computer algorithms and their underlying data structures. Analysis of the timing and efficiency of algorithms. Study of lists, stacks, queues, trees, backtracking, searching, sorting and recursion. Introduction to graphs, hash tables, heaps, priority queues and direct access files. Further study of abstract data types and object-oriented programming.
+
+---
+COURSE: CS111B
+TITLE: Programming Fundamentals: Java
+UNITS: 4
+ADVISE: CS 10 or CS 110A or MATH 108
+TRANSFER: UC/CSU
+DESCRIPTION: This course covers programming fundamentals using the Java language, emphasizing an object-oriented approach to problem solving. Topics include classes, objects, references, dynamic memory allocation, inheritance, polymorphism, arrays, files, design and implementation of abstract data types, in numerical and non-numerical applications.
+
+---
+COURSE: CS111C
+TITLE: Data Structures and Algorithms: Java
+UNITS: 4
+PREREQ: CS 111B
+TRANSFER: UC/CSU
+DESCRIPTION: The analysis and design of computer algorithms and their underlying data structures. Analysis of the timing and efficiency of algorithms. Study of lists, stacks, queues, trees, backtracking, searching, sorting and recursion. Introduction to graphs, hash tables, heaps, priority queues and direct access files. Further study of abstract data types and object-oriented programming.
+
+---
+COURSE: CS131B
+TITLE: Programming Fundamentals: Python (formerly CS 131A)
+UNITS: 4
+ADVISE: CS 10 or CS 110A or MATH 108
+TRANSFER: UC/CSU
+DESCRIPTION: This course covers programming fundamentals using the Python language. Python is interpreted, interactive, and object-oriented. Recommended for general-purpose programming, system administration, or web programming. Topics include classes, objects, inheritance, polymorphism, design and implementation of abstract data types, dictionaries, lists, list comprehensions, files, modules, and mutable and immutable types.
+
+---
+COURSE: CS150A
+TITLE: Introduction to SQL Databases and NoSQL
+UNITS: 3
+TRANSFER: CSU
+DESCRIPTION: A course in the use of SQL database management systems to create, query, and update database tables. The course covers both the syntax and the logic of the major features of the SQL language. It also covers a brief overview of NoSQL (Not Only SQL) data sources such as JSON and MongoDB.
+
+---
+COURSE: CS155B
+TITLE: MySQL Database Administration
+UNITS: 3
+ADVISE: CS 150A and CS 160B
+TRANSFER: CSU
+DESCRIPTION: Students install and configure a MySQL server and create and manage user accounts. Issues pertaining to optimization, security, privileges, tuning, troubleshooting, and performing upgrades are studied and practiced.
+
+---
+COURSE: CS155P
+TITLE: MySQL Programming
+UNITS: 3
+ADVISE: CS 150A
+TRANSFER: CSU
+DESCRIPTION: An advanced course in the use of MySQL techniques to process database objects. Design and develop MySQL program units: stored procedures, functions, and database triggers. Work with dynamic SQL and with XML data.
+
+---
+COURSE: CS160A
+TITLE: Introduction to Unix/Linux
+UNITS: 2
+TRANSFER: UC/CSU
+DESCRIPTION: Introduction to using the Unix/Linux operating system. Unix/Linux file management and common text processing utilities including searching.
+
+---
+COURSE: CS160B
+TITLE: Unix/Linux Shell Scripting
+UNITS: 2
+ADVISE: CS 160A
+TRANSFER: UC/CSU
+DESCRIPTION: Analyze, design, write, test, and debug shell scripts. Students learn basic shell scripting techniques and develop scripting skills needed for Unix/Linux System Administration courses. The bash shell is used.
+
+---
+COURSE: CS177
+TITLE: Software Engineering
+UNITS: 3
+PREREQ: CS 110B or CS 111B or CS 131B
+TRANSFER: UC/CSU
+DESCRIPTION: Introduction to principal software engineering processes and pitfalls. Focus on users, development methodologies, testing, and tools. Use of techniques including version control, functional specification, Agile and Test-Driven Development.
+
+---
+COURSE: CS178
+TITLE: Build Automation for DevOps & QA
+UNITS: 3
+ADVISE: CS 132A and CS 177 and CS 260A
+TRANSFER: CSU
+DESCRIPTION: Development and Operations (DevOps) is the use of build automation tools to automate provisioning, configuration, monitoring, and management of data centers and networks. These same tools are used to automatically build and test software for Quality Assurance (QA). Design tests and use tools like Jenkins to execute planned systematic actions that provide confidence in a software product under development, and its infrastructure.
+
+---
+COURSE: CS185
+TITLE: Exploring Game Worlds
+UNITS: 3
+ADVISE: VMD 105
+TRANSFER: CSU
+DESCRIPTION: Utilizing the Unity game engine and a range of additional tools, this course is an introduction to the career opportunities in the games industry. Students will learn how individual games are made, distributed, and sold via both physical media and online. Virtual reality and augmented reality will also be examined.
+
+---
+COURSE: CS195
+TITLE: Software Development Practicum
+UNITS: 3
+PREREQ: CS 110B or CS 111B or CS 131B or CS 150A or CS 177
+TRANSFER: CSU
+DESCRIPTION: Integrate and apply knowledge gained through CCSF coursework in a team-based environment. Work on realistic projects with input invited from local employers. Develop, design, and program a professional software project in a team environment.
+
+---
+COURSE: CS197P
+TITLE: Technical Interview Preparation
+UNITS: 1
+PREREQ: Completion of or concurrent enrollment in CS 110C or CS 111C
+TRANSFER: CSU
+DESCRIPTION: Preparation for programming job interviews: problem-solving and algorithm questions solved on a white board or online chat, approaches to technical interviews, and solving common kinds of problems. Requires prior experience programming Data Structures and Algorithms in C++, Java, or similar.
+
+---
+COURSE: CS197V
+TITLE: Version Control and Online Code Repositories
+UNITS: 1
+ADVISE: CS 10 or MATH 108 or prior programming experience
+TRANSFER: CSU
+DESCRIPTION: Using version control software such as Git and online code repositories such as GitHub. Use these systems for team collaboration in software development, and to present work online as a portfolio for job applications. Set up an online code repository as a portfolio for employers to assess what kind of programming experience an applicant has.
+
+---
+COURSE: CS198
+TITLE: Industry Internship
+UNITS: 1
+TRANSFER: CSU
+DESCRIPTION: Provides students with the opportunity to earn course and certificate credit for working in the field, in a supervised setting in the ICT/Computer Science industry. Internships include software quality assurance (QA), junior developer, database programmer or administrator, Linux system administrator, etc. One unit of credit is earned for 54 hours of unpaid or paid work.
+
+---
+COURSE: CS199
+TITLE: Independent Study
+UNITS: 1
+ADVISE: CS 110C or CS 111C or CS 160B or CS 177 or CS 211S or CS 211D or CS 212 or CS 214U or CS 231 or CS 232 or CS 256 or CS 280
+TRANSFER: CSU (UC upon review)
+DESCRIPTION: Large-scale individual projects in computer science to be defined in cooperation with an instructor/supervisor. The project must be in an area not covered by other course offerings. The student is responsible for the project definition and completion under the guidance of an instructor/supervisor.
+
+---
+COURSE: CS211D
+TITLE: Android Programming
+UNITS: 3
+PREREQ: CS 111B
+TRANSFER: CSU
+DESCRIPTION: An advanced course in the design and development of applications for mobile devices running the Android operating system. Use the Android SDK and Android Studio to craft user interfaces (UIs) and create applications that make use of web services, long-term storage, user location, and media.
+
+---
+COURSE: CS211E
+TITLE: Advanced Java: Enterprise
+UNITS: 3
+ADVISE: CS 111B and CS 211S
+TRANSFER: UC/CSU
+DESCRIPTION: Advanced Java Enterprise Edition covers features of the Java language essential for building network- and web-oriented applications. Topics include networking, Java Database Connectivity (JDBC), Servlets, JavaBeans, JavaServer Pages (JSP), Remote Method Invocation (RMI), JavaScript Object Notation (JSON), and Extensible Markup Language (XML).
+
+---
+COURSE: CS211S
+TITLE: Advanced Java: Standard Edition
+UNITS: 3
+PREREQ: CS 111B
+TRANSFER: UC/CSU
+DESCRIPTION: Introduces advanced Java language features and packages that are essential for building Java Standard Edition applications. Topics include object-oriented design, updated Java features, file input and output, exception handling, collections, generics, graphical user interfaces (GUIs), functional programming, reflection, and multithreading. Helps prepare students for industry certification in Java programming.
+
+---
+COURSE: CS212
+TITLE: iPhone Programming
+UNITS: 4
+ADVISE: CS 112 or CS 110B or CS 111B
+TRANSFER: UC/CSU
+DESCRIPTION: An advanced course in the design and development of iOS applications using Xcode and Swift. Overview of object-oriented programming in Swift. Development of user interfaces with Storyboard. Development of iOS applications using the model-view-controller paradigm, persistent storage, and networked data.
+
+---
+COURSE: CS214U
+TITLE: Game and Simulation Programming in Unity
+UNITS: 4
+PREREQ: CS 110B or CS 111B
+TRANSFER: CSU
+DESCRIPTION: This course provides students with the opportunity to learn computer science concepts in the context of game and simulation development. Data algorithms, behavioral algorithms, memory management, object and class hierarchy, and Unity's architectural pattern will be presented.
+
+---
+COURSE: CS231
+TITLE: Advanced Python for Analytics
+UNITS: 3
+PREREQ: CS 131B (CS 131A may be used to satisfy the prerequisite)
+TRANSFER: UC/CSU
+DESCRIPTION: Second course in the Python programming language. Emphasis is on applications in data analytics. Covers resources, practices, and modules used by successful Python programmers; debugging and testing; data serialization; and interaction with SQL databases and web services. Students write useful programs demonstrating mastery of these techniques, which are applicable to real world problems.
+
+---
+COURSE: CS256
+TITLE: Data Visualization
+UNITS: 3
+PREREQ: CS 131B or CS 111B or CS 110B
+ADVISE: MATH 80 or ECON 5 or PSYC 5 or LALS 5 or MATH 108
+TRANSFER: CSU
+DESCRIPTION: Access and analyze data and produce information visualizations to discover patterns. Fundamental skills and concepts for data science applicable to scientists, journalists, business people, and database programmers. Requires programming in a language of the student's choice.
+
+---
+COURSE: CS260A
+TITLE: Linux System Administration
+UNITS: 4
+ADVISE: CS 160B
+TRANSFER: CSU
+DESCRIPTION: The administration of a Linux server. Prepares students for industry certification and entry-level employment in system administration. Topics include process control, system monitoring, filesystem preparation and maintenance, logical volumes, basic servers and the firewall, virtual machines, startup and shutdown, user accounts, periodic tasks, security issues, and installations.
+
+---
+COURSE: CS270
+TITLE: Computer Architecture with Assembly Language
+UNITS: 4
+PREREQ: CS 110B or CS 111B
+ADVISE: CS 160A
+TRANSFER: UC/CSU
+DESCRIPTION: Basic computer organization including the von Neumann architecture, the instruction cycle, parts of a CPU (central processing unit), pipelining, memory hierarchy, and interrupt handling. Representation of numerical and non-numerical data. Translation to assembly code from high-level constructs such as if statements, loops, and function calls.
+
+---
+COURSE: CS280
+TITLE: Introduction to Parallel and Cloud Programming
+UNITS: 4
+ADVISE: CS 110B or CS 111B or CS 131B
+TRANSFER: CSU
+DESCRIPTION: Programming fundamentals using multiple processors or computers to solve a problem. Mechanics of computation, multi-tasking, multi-threading, and object-oriented approaches to managing many computing elements working on the same problem. Programming for Cloud computation, Big Data access, and highly parallel computing hardware, e.g. multi-core processors and Graphics Processing Units (GPU).

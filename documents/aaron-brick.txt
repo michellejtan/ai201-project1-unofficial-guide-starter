@@ -1,0 +1,507 @@
+PROFESSOR: Aaron Brick
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/1609317
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He makes little to no effort on this class and could care less about student learning. It is sad, because many students take this class to learn python fundamentals, and python is one of the most popular language. His weekly "lectures" are just one or two minutes long and assignments are explained in 1 or 2 sentences. Take someone else if possible.
+
+---
+COURSE: CS131A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters, Clear grading criteria
+REVIEW: Professor Brick is approachable and wants help. He is also very honest about how much reading the material is important to your grade.
+
+---
+COURSE: CS131B
+QUALITY: 3.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: This class doesn't really use Canvas- everything runs out of his own program in the command-line on the school's server. No lectures, very self-directed- don't skip the textbook. No tests and HW is basically participation based. BC of the format I see this class being a big challenge for coding newbies, but is easy for anyone who does have exp.
+
+---
+COURSE: CS231A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters
+REVIEW: The grading criteria is very lenient and 5 free passes are given for 26 assignments (meaning you only need to do 19 of them to get an A). No exams. I also feel that this class was a really great intro to all of the various packages python has to offer, as well as intros to various interesting software topics. Would take again.
+
+---
+COURSE: CS231A
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: EXTRA CREDIT, Clear grading criteria, Accessible outside class
+REVIEW: I really enjoyed Aaron's classes because of the straightforward setup. I met him to talk about some possible projects and ended up TAing to grade the advanced Python. His interface (he doesn't use Canvas) was different, and I can understand how it trips up some in the intro class, but it really streamlines things once you connect
+
+---
+COURSE: CS131B
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, EXTRA CREDIT, Graded by few things
+REVIEW: Aaron provided plenty of resources for learning and answered student questions through discussion boards and email. you get what you put in for the course - there are no long video lectures; there is 1pg notes weekly & reading. Lots of opps for EC. Perhaps more guidance on the assignment can be helpful since we interpreted the specs differently.
+
+---
+COURSE: CS131A
+QUALITY: 3.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, EXTRA CREDIT, Online Savvy
+REVIEW: Aaron provided plenty of resources for learning and answered student questions through discussion boards and email. you get what you put in for the course - there are no long video lectures; there is 1pg notes weekly & reading. Lots of opp for EC. Perhaps more guidance on the assignment can be helpful since we interpreted the specs differently.
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Graded by few things
+REVIEW: - No constructive feedback - No quizzes or examples to test knowledge - Very little instruction provided, what is provided is often unclear/ confusing - No video lectures or materials overview - Does not use Canvas features even though it is a completely online class.
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Graded by few things
+REVIEW: - Does not give constructive feedback (there are only peer reviews with a variety of inaccuracy or helpfulness with no input/ comments) - Does not provide clear examples or instructions - Grades rely almost solely on homework, with no quizzes or practice either for grades or feedback to test understanding of material - Does not utilize Canvas
+
+---
+COURSE: CS131A
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters
+REVIEW: Although the course is pretty challenging and you have to read the textbook closely, I found Professor Brick approachable. I met him in office hours throughout the semester and this was really helpful. He seemed interested in some of my more ambitious programs and it was nice to talk with him about them.
+
+---
+COURSE: CS231A
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: doesn't teach you anything. responsible for your own learning. assignments are relatively easy, and it's easy to get an A. if you want to ACTUALLY learn, don't take this. if you just want the grade, take this class.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: i am in his class now but might drop it, this teacher has no respect for his students. just google him and you'll see tons of bad reviews. take this class wtih anyone else but him.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Disorganized, unclear, doesn't each anything! How is this guy being paid to do nothing?
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: He doesn't teach. He doesn't give feedback. If you message him, he will respond with riddles that really won't be helpful. He outsources the grading to you the student. But he offers so much extra credit it's an easy A if you just do as many extra peer reviews as you can. It helps him stay lazy. Take a python class online anywhere else.
+
+---
+COURSE: CS131B
+QUALITY: 2.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Took before for 131a and 177 in 2016. He has not changed. He is very knowledgeable but cannot teach (1 pg PDF lecture notes and a 1 min youtube vid weekly) If you have A+ google skills or have experience, you will do fine. I struggled on assignments but his grading system is easy and I got an A (peer reviews + 4 passes + extra credit for reviews).
+
+---
+COURSE: CS131A
+QUALITY: 3.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Get ready to read, Graded by few things
+REVIEW: Took his class during the pandemic but all his classes are online anyways. I was only confused for one of the assignments when the book nor the ta was very helpful. Otherwise, everything else was doable because I had a little bit of experience. Else, this class would have been very difficult.
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: Graded by few things, EXTRA CREDIT
+REVIEW: Grade is determined by peer reviews and assignments on hills. Has extra credit and free passes. A page of notes and a short 1 min video every week, but doesn't really teach. He uses words that makes communicating more confusing, also acknowledges the college using pronto but doesn't use it or reply. He only checks discussion board or email.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: This guy has no business being an instructor at the college level, but I do recognize that he is knowledgeable about CS. He outsources grading to students in the form of peer review. Class material does not help. You have to draw from outside sources to complete assignments. Teaching yourself with youtube videos may be more educating than class
+
+---
+COURSE: CS131B
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters, Inspirational
+REVIEW: Some find this class difficult, but they are missing the opportunity. I have taken CS courses at CCSF with different instructors. One type is extremely thorough, structured, and direct. The other type may seem vague or confusing at first. In the end the searching and struggle pay off, for that was the point. Learning through Discovery!
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: EXTRA CREDIT
+REVIEW: Criteria for grading is very arbitrary. Criteria for doing the weekly assignment is not very good. He's a terrible communicator in writing and in person.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: No
+TAGS: Hilarious
+REVIEW: Aarons online 131A class is a bs class. He puts out no online content, no online material. It's not a real programming class. No information is provided about variables, loops, input,output,functions etc. Not a real programming class. He will vaguely ask you to research something and write a program about it. Strong researching skills are required.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Prof does not teach. Assignments are cryptic. EVERYTHING is graded based on peer-review, so if your classmates (who are learning just like you) do not like your code, then you will not receive good grades on assignments. You can do extra peer reviews for extra credit, which makes the class an easy A. You will learn almost nothing in this class.
+
+---
+COURSE: CS231A
+QUALITY: 5.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Inspirational, Amazing lectures
+REVIEW: Extremely knowledgable but many complain he is esoteric as he goes in depth for many topics. Every class begins with active lectures that are very educational then moves on to coding where he gives thought provoking insight so you yourself still can do the critical thinking. NO tests but this means your grade is determined by peer review.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: You have to already know what the class is supposed to teach because he barely explains and is super vague. The little answers he gives confuse you more. He has peers grade your homework so it's unfair and a few comments they provide make no sense. If you are a student who cares about grade & performance don't take this class because he doesn't.
+
+---
+COURSE: CS131A
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: No previous coding experience made this course difficult but Aaron's a cool dude
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: He will tell you a few things but certainly not teach you anything. The text he uses is very confusing. The CS110A class make sure you take the final - as that seems to be the main thing you have to do to pass the class, even if you don't understand anything.
+
+---
+COURSE: CS131A
+QUALITY: 4.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters
+REVIEW: CS 131A advises that you have prior programming experience. This is important. I wouldn't recommend this class unless you meet this criteria, seriously. Read the entire syllabus. Every. Single. Word. Although this is an online course, the first class is in person and optional. ATTEND THIS CLASS.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Plan on figuring everything out on your own, with little-to-no guidance. He teaches with an assumption that the students know a lot more about the subject than they probably do considering that this is an introductory class. He dives right in and assigns projects without giving any instruction on the background needed. Maybe he's better in person.
+
+---
+COURSE: CS131A
+QUALITY: 1.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: NEVER TAKE his class. Learn nothing
+
+---
+COURSE: CS131A
+QUALITY: 2.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: he's very knowledgeable and knows his stuff. but python was my first programming class and he assumes that you already have some basic programming background from other languages. as an online course, he offers very little guidance. be active on the forums, and his participation tokens were annoying tbh. i thought i would fail but his curve is high
+
+---
+COURSE: CS110A
+QUALITY: 3.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: Very easy. No textbook, little weekly reading, assignments every few weeks. He responds quickly on forums. Very knowledgable guy, gives good help and feedback if you ask. Participation is unclear, look for random 6-digit codes in the middle of his forum posts almost each week, submit on hills. Get familiar with his site, has all the info you need.
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Without a doubt the worst professor I've ever had. Truly amazing how little he cares. Very unclear and puts no effort into helping those who ask for it. If you love vague, unclear, and slightly condescending professors who don't legitimately teach anything, then this professor is for you!
+
+---
+COURSE: CS131A
+QUALITY: 3.5
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Splits his class into half lecture, half hands-on lab. His lectures will carry you through the class, however his vocabulary is a bit esoteric at times. Don't be afraid to ask for clarification! A lot of the grade is attendance. His tests do not reflect what you covered in lecture, but he allows open machines/books/notes. Read the book for tests.
+
+---
+COURSE: CS131A
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Projectslab time is very important. Work passed the goal and get feedback if you can.
+
+---
+COURSE: CS160B
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: If you want to waste your time, this teacher is for you.
+
+---
+COURSE: CS160A
+QUALITY: 1.5
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: His lectures are fairly confusing and boring. Gives you the manual to read and expects you to know things that weren't explained in lectures. Tests are VERY confusing and homeworks too.
+
+---
+COURSE: CS110A
+QUALITY: 1.5
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: If you are a beginner - DO NOT TAKE THIS CLASS. I don't know what these people are talking about the class being easy. You pretty much need to GOOGLE EVERYTHING. The reading was not very helpful and the assignments were so broad. They did not make sense, and lacked basic instructions! I will have to take this class again w another instructor.
+
+---
+COURSE: CS110A
+QUALITY: 4.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I enjoyed taking the online C++ course. The assignments were difficult but the grading is quite lenient. If you do the readings, ask questions when you need help, and spend time on the homework, you'll learn a lot. It is a difficult topic, especially without prior programming experience or exposure, but you have to expect this going in.
+
+---
+COURSE: CS101
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I really liked Aaron's classes and he makes an effort to legitimately get you INTERESTED in CS. If you aren't actually interested in computer science, and just want to learn coding, you should probably pick up a "Coding for Dummies" book instead of taking a course. If computer science actually interests you, you will definitely enjoy his classes.
+
+---
+COURSE: CS131A
+QUALITY: 3.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: like a previous reviewer mentioned, YMMV. I look at it as two different camps: 1)if you're the type who generally needs constant direction throughout the semester, then his teaching style can be considered to some, non-fullfulling. 2) if you've programming experience, have genuine interest and look to dig deep on your own, he's insightful
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He is probably one of the worst professors out there. Does not do even a tidbit of explaining. His homework was quite a challenge and he does not give useful feedback, at all. He marks down points for no apparent reason and is extremely slow with grading. His nitpicking makes easy tests difficult. 010 would not retake this course. Terrible teacher
+
+---
+COURSE: CS110A
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I've taken a few classes with Mr Brick. He's very much a teacher where your mileage will vary based on what you put in. Simply passing his class isn't difficult, but you'll be amazed by how much you progress if you put in the effort to do the readings and homework.
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Avoid this teacher if you're a beginner to programming. Not much instructions from him or his reading materials.
+
+---
+COURSE: CS131A
+QUALITY: 4.5
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Polite, friendly, helpful and fair. Conducts an engaging and interactive class.
+
+---
+COURSE: CS160B
+QUALITY: 2.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: where to start? late in grading assignments, so really no feedback on what can be improved prior to next assignments. there's a class forum, so i expected there to be much more interaction from the instructor since it is, after all, an online class and we don't see him during the semester. maybe the onsite course is better (hopefully).
+
+---
+COURSE: CS160B
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: for a tech instructor, he can't be any more unclear. ambiguous. random, hit-n-run attendance on the class/group forum for any assistance. personally would not recommend, if there is another instructor teaching the same course.
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Professor Brick to put it shortly is an awful professor. I feel that he lacks passion for the class and he does not explain topics well for new students to the subject. I learned more from the people in the class than the instructor himself. Very disappointing and frustrating. Needs an extreme overhaul of his class.
+
+---
+COURSE: CS110A
+QUALITY: 1.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: As a teacher you have to accept that you are going to repeat yourself, and he never wanted to repeat himself. If a user had a question, and I reponded with what I thought was a solution, he would just say it's wrong or incorrect without stating why. That was an opportunity to enhance clarity and he doesn't care.
+
+---
+COURSE: CS160B
+QUALITY: 2.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Takes forever to grade assignments. Material mainly assigned from the textbook and reading notes provided by ANOTHER professor. Order of topics made it hard to learn the material. Instructions on assignments not explicit enough.
+
+---
+COURSE: CS110A
+QUALITY: 2.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I learned nothing from him! He's a nice guy and all... But, The assignments have barely anything to do with the reading. They always have some weird aspect that tests your google skills more than programming chops. I could of done that for free. I was super excited about this course, but he really turned me off to programming.
+
+---
+COURSE: CS110A
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Avoid this teacher if you want to learn, he just assigns book readings. He uses his own poorly-automated grading system which constantly breaks. He is slow to grade and focuses on arbitrary attributes. New CS students struggle with his lack of instruction and irrational assignment progression. He represents the CS department and CCSF terribly.
+
+---
+COURSE: CS131A
+QUALITY: 1.5
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: No!!!! He's kinda useless. If you are new to the subject, FORGET it!!! You will NEVER understand, he teaches introductory classes as if the students know EVERYTHING already. POINTLESS!!! The tests are SUPER easy though cause they are open book and open computer.
+
+---
+COURSE: CS111A
+QUALITY: 2.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Students without any prior knowledge about java programming will not understand a word he's talking about. His use of vocabulary is too high and lacks clarity. This happens to not just me but also 3 of my friends.
+
+---
+COURSE: CS111A
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I thought he was great! It was one of the harder classes I took at City College, but that was just the homework. Exams are really easy and open book. He's really nice/helpful about answering questions, which I really appreciate now after having Courtney Brown for CS111B. Also- really hot.
+
+---
+COURSE: CS110A
+QUALITY: 1.5
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I took this class online as a complete beginner and when I turned to the professor for help with hw he just said that the group forum has already answered my question. Without other programming tutorials I would've done worse in this class because he doesn't teach anything, just tells you to read the book. Don't take him if you want to program.
+
+---
+COURSE: CS160B
+QUALITY: 3.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Assignments are fair. Course structure can be better organized. He inherit most material from Greg Boyd. Homeworks are hard from them you learn the most. Non grading exercises are also hard. But test was surprisingly simple. He's more involved in forum discussion than other instructor and is responsive to questions.
+
+---
+COURSE: CS110A
+QUALITY: 3.5
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I took the online Intro to C++ class. I didn't get the book until a few weeks into the semester and I pretty much failed every assignment until then. It is all about reading the book, and then doing an assignment isn't too hard, if you can decipher his cryptic requests. And umm he is sooo soo so hot. Weirdly.
+
+---
+COURSE: CS111A
+QUALITY: 3.5
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He is helpful and cheerful, and talks very clearly during lectures. However, if this is your first time learning programming, you will be intimidated. ( I would know because I studied the class before hand and I was still intimidated.) Participation is key. His homework is very hard and has caused headaches for me.. Good luck!
+
+---
+COURSE: CS111A
+QUALITY: 4.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: The homework is hard, but formatting (i.e. be careful about your tabbing), using lots of comments, and turning it in on time are weighted heavily. IT'S KEY to talk in class and participate in the discussion board, your grade WILL suffer if you don't. I learned a lot, and would definitely take a class from him again.
+
+---
+COURSE: CS110A
+QUALITY: 4.5
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Good Teacher , very lenient on late work for online classes and tests aren't hard at all . i would recommended this teacher
+
+---
+COURSE: CS111A
+QUALITY: 4.5
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: Not entirely sure how well I was doing during the first part of the course, a little disorganized, however considering this was the first time he taught Java, he was very helpful and provided guidance, I learned how much I learned over his instruction and feel confident in the intro java skills acquired. The facilities @ CCSF need an upgrade bad.
+
+---
+COURSE: CS111A
+QUALITY: 4.5
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: I think he's a great teacher. If you're new to programming you'll need to be one with the textbook, but I never really used it. Nothing that google couldn't fix for me.
+
+---
+COURSE: CS111A
+QUALITY: 3.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: His class is ok. He is a cool teacher, friendly and easy to talking to. But His HW is extremely hard. If you don't have any programming experience before, stay away from his class, because he will not concentrate on the basic programming knowledge. There is about 60 students signed his class, but only about 10 students left at the end of semester.

@@ -1,0 +1,40 @@
+# COLLECTION TEMPLATE — do not chunk this file (the leading underscore marks it as a template).
+# Copy this file to one-per-professor, e.g.  jessica-masters.txt, max-luttrell.txt
+# Then paste real reviews from the source pages listed in planning.md.
+#
+# Format rules (the chunker relies on these):
+#   - A header block at the top gives PROFESSOR / DEPARTMENT / SOURCE for the whole file.
+#   - Each review is separated by a line containing only ---
+#   - Each review starts with COURSE:, QUALITY:, DIFFICULTY:, WOULD_TAKE_AGAIN:, TAGS: lines,
+#     then REVIEW: followed by the text.
+#   - TAGS are the attribute labels above the "Helpful" button (e.g. "Lots of homework").
+#     Skip the literal "Helpful" line and the thumbs up/down counts. Use "n/a" when absent.
+#   - One review = one chunk. Keep each REVIEW to the actual student's words; don't merge two.
+
+PROFESSOR: <full name as shown on the source>
+DEPARTMENT: Computer Science
+SOURCE: <site name + URL, e.g. RateMyProfessors https://www.ratemyprofessors.com/professor/1768830>
+
+---
+COURSE: <e.g. CS111C, or "unknown" if the review doesn't say>
+QUALITY: <e.g. 5.0, or "n/a">
+DIFFICULTY: <e.g. 3.0, or "n/a">
+WOULD_TAKE_AGAIN: <Yes / No / n/a>
+TAGS: <comma-separated, e.g. Amazing lectures, Lots of homework, Caring; or n/a>
+REVIEW: <paste the student's review text here, verbatim>
+
+---
+COURSE:
+QUALITY:
+DIFFICULTY:
+WOULD_TAKE_AGAIN:
+TAGS:
+REVIEW:
+
+---
+COURSE:
+QUALITY:
+DIFFICULTY:
+WOULD_TAKE_AGAIN:
+TAGS:
+REVIEW:

@@ -1,0 +1,51 @@
+PROFESSOR: LaDawn Meade
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/2332544
+
+---
+COURSE: CS111B
+QUALITY: 5.0
+DIFFICULTY: 1.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Caring, Online Savvy
+REVIEW: This review is for CS111C. Fairly easy class, especially for DSA. Pace is quite slow and you'll get plenty of time to understand the concepts clearly. Few assignments and only 2 exams in total. No textbook required, but lots of external articles and materials. Might need to study some advanced materials on your own if you want to get good at DSA
+
+---
+COURSE: CS131B
+QUALITY: 1.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: You would be better off learning on your own than wasting your time with LaDawn Meade. Her lessons are a mess. Sloppy, often incoherent, with little explanation, links that don't work, and terms that are referenced but never introduced. Yeah. It's hard to qualify her as an instructor, but she's easily the worst I've ever had.
+
+---
+COURSE: CS111B
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Lots of homework, Caring
+REVIEW: Professor Meade was a great professor. The chance to submit late work without losing points was extremely useful. There's a lot of reading in the modules, but no required textbook.
+
+---
+COURSE: CS131B
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Caring, Respected
+REVIEW: Took Ladawn for her CS 131B Python in Spring 2023 in-person. She is nice, willing to help, & accepts late work without penalty up to the final exam deadline (specifically mentioned in her syllabus). The only flaw is that if u take her online session, u need to be careful of her typo on lecture modules. Overall: B/B- Quality. I will take her again
+
+---
+COURSE: CS160A
+QUALITY: 3.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Accessible outside class, Clear grading criteria
+REVIEW: On a good note there are no deadlines and attendance is optional. On a bad note, it's a bad class. All CCSF SQL classes are bad classes. It's not limited to this instructor. They are all using the same bad material and not improving it. I had to teach myself the entire subject in a short period of time. Buy Learn SQL the Hard Way by Zed Shaw.
+
+---
+COURSE: CS111B
+QUALITY: 3.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria
+REVIEW: This is very flexible class b/c attendance not-mandatory, all stuff (including midterm and final) is online, everything is due at end of semester. Textbook not required, but helps a lot to have one. 2hour lecture, 2hour lab (dont need to stay). Cons are appointment for office hours, takes days to reply to messages, gives no feedback on assignments.

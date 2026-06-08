@@ -1,0 +1,123 @@
+PROFESSOR: Jonathan Potter
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/2445727
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Caring, Respected
+REVIEW: This class is honestly pretty easy in person, people were hyping up the final to be really hard but it was just a culmination of a bunch of quizzes. Quizzes were extremely easy, final was just really comprehensive, but nothing too hard. Assignments are great practice for quizzes, not much studying needed if you do the work honestly.
+
+---
+COURSE: CS270
+QUALITY: 3.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: n/a
+REVIEW: He knows the material but his delivery is terrible. He even taught at stanford and went there but he should to go visit again to learn how to speak to people. Microagressions, his attitude with tech workers changed completely when i see him at conferences. How original. CS professor who acts haughty with his students but alters around others.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Caring, Respected
+REVIEW: Mr. Potter is a great professor. Lectures are not prerecorded, so you have to attend every class to get the most out of it. He's always willing to answer any questions that you have. He makes an effort to make quiz-taking and exams as stress-free as possible. Personally, I found the content of the material to be easy up until the last module.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Inspirational, Accessible outside class
+REVIEW: I learned a lot from the lectures and resources links in readings. Jonathan is very good at listening to students' questions and will always answer them. There are no such things as "stupid questions" in his class. He's very knowledgeable as well. I think if the quizzes are harder it would be more fun.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class, Inspirational, Clear grading criteria
+REVIEW: This guy knows what he's talking about and can explain it extremely well! Essentially Linus from Linus Tech Tips if he was a professor
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Accessible outside class
+REVIEW: Very charismatic teacher. Explains things really well and in generally is pretty chill. All quizzes and exams were very easy and based only on lectures. Although there is homework, none of it was on the quizzes and exams, only what was covered in the lectures.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: n/a
+REVIEW: He makes Python very clear and understandable
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Accessible outside class, Caring
+REVIEW: Took him for CS270. GREAT professor!! His lectures are really engaging and he breaks things down so you could understand it in a simple manner. The 2nd half of the class was pretty difficult (imo) but he provided great help in his office hours. Assignments were kinda hard but doable. Exams and quizzes were straightforward and he grades generously!!
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Graded by few things, Clear grading criteria
+REVIEW: Clear grade system. homework and projects are one half of grade. quiz and final are one half of grade. Great lecture. easy A
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Accessible outside class, Inspirational, Amazing lectures
+REVIEW: I wish every cs professor was like him. His lectures are so incredibly clear that it is difficult to be confused. I took his class a year ago, and I still remember everything we learned. He definitely prepared me for transferring, and upper div architecture classes. Very knowledgeable, answers questions in detail. We need more Jonathans at ccsf.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Participation matters, Clear grading criteria
+REVIEW: Easily accessible! Explains concepts very well! Lurve him!
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Clear grading criteria, Lecture heavy
+REVIEW: Very clear and concise lectures. Tells you exactly what you're doing and how to do it. Amazing notes and left me feeling a lot more confident as a beginner in coding. Would definitely recommend to anyone looking for a coding class.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Inspirational, Caring
+REVIEW: Mr. Potter was just the best. His lectures are amazing and clear. His assignments and grading were very lenient. I highly recommend you take this teacher.
+
+---
+COURSE: CS270
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected, Skip class? You won't pass., Accessible outside class
+REVIEW: CPU class. 2nd semester is the hard part. Class usually involves lectures, exercises, and labs. He has a good sense of humor and can explain ideas very well. HW is auto-graded on hills and Canvas. Because there's no textbook and reading material is from a variety of sources, I highly suggest to TRY TO MAKE IT TO EVERY LECTURE and take good notes.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Amazing lectures, Caring
+REVIEW: Jonathan Potter is literally the homie. As I took his class for Introductory for Python, I was quite intimidated by coding in general. Yet after taking his class, his lectures were clear and made it interesting at the same time. In order to pass, just take good notes during the lectures and do the modules on time. Kind, cool and hella supportive.

@@ -1,0 +1,171 @@
+PROFESSOR: Daniel O'Leary
+DEPARTMENT: Computer Science
+SOURCE: RateMyProfessors https://www.ratemyprofessors.com/professor/2275541
+
+---
+COURSE: CS256
+QUALITY: 2.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: n/a
+TAGS: Tough grader, Lots of homework, Lecture heavy
+REVIEW: Unclear feedback and lots of open-ended work. Offloads the review to students first and has ignored some of my emails for weeks.
+
+---
+COURSE: CS150A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Respected, Online Savvy
+REVIEW: Should be fairly easy and straight forward if you do all the assignments and readings. A great and caring teacher, which can sometimes be rare at CCSF. If you have some prior SQL experience, this should be a breeze. Very beginner friendly.
+
+---
+COURSE: CS150A
+QUALITY: 3.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Test heavy, Online Savvy
+REVIEW: Professor O'Leary has a great class for those who are great independent learners, especially if you're learning how to code. I wish the SQL class was slower paced and focused more on those with no experience with coding. There's nothing that is too difficult, since you can find a solution in the book, all of the work is based on the coding book.
+
+---
+COURSE: CS150A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters, Lots of homework
+REVIEW: Amazing online format, but time management is of the essence. He provides many, many free resources for you to study and he actively engaged with students through our weekly forum posts. He also provides a generous amount of extra credit, which are leetcode problems that help with interview prep! I really solidified my foundational SQL knowledge.
+
+---
+COURSE: CS150A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Amazing lectures, EXTRA CREDIT
+REVIEW: Great professor! I took online classes because of the pandemic. During the semester, Professor O'Leary provided many useful materials in different formats to facilitate the learning process (video lectures, youtube videos from different channels, online short courses related to the subject, practice problems, etc).
+
+---
+COURSE: CS150
+QUALITY: 3.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Get ready to read, Participation matters, EXTRA CREDIT
+REVIEW: Good professor. Wish I took him in person. Be sure to study because time goes by fast and you will forget how to in mysql if you do not practice!
+
+---
+COURSE: CS110C
+QUALITY: 1.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Too much going on. Get his attention or understand the material easily, then you will do okay. Can't get a hold of him, understand him, or the class, you will struggle. Lots of unnecessary confusion. Poor attitude, lectures need help, unwilling to communicate on the student's level. Don't point out flaws. Aggressive, mad at past students?
+
+---
+COURSE: CS150
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Lots of homework, Clear grading criteria, EXTRA CREDIT
+REVIEW: Great Professor! I feel pretty confident in MySQL and MongoDB after the course. Be ready to work, but there is still a lot of time for other classes left. He is flexible(within reasonable limits), gives extra credits. He handled the COVID situation in decent level! I would recommend him, you definitely learn a lot.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Amazing lectures
+REVIEW: I really liked this class for the first half. lectures were great. Class moved to online because of the virus - online wasn't as good. Online got better after a few weeks, but first weeks were rough. Still learned a lot and prof oleary gave lots of extra credit.
+
+---
+COURSE: CS110C
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Participation matters, Amazing lectures, EXTRA CREDIT
+REVIEW: Great Prof! Homework was tough, but you can redo it for a better grade. Lectures were good - which was important because the textbook wasn't great.
+
+---
+COURSE: CS150
+QUALITY: 1.0
+DIFFICULTY: 5.0
+WOULD_TAKE_AGAIN: No
+TAGS: Get ready to read, Skip class? You won't pass., Beware of pop quizzes
+REVIEW: I'm a 4.0 student and this professor is so disorganized. He makes major mistakes in his code everyday, his quizzes and homework are incorrect. You find an error in his code and doesn't give you credit for your work. He randomly assigns online quizzes due in a day without notice. Don't take him. Completely wastes tax dollars. Mandatory textbook...
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Participation matters, Clear grading criteria
+REVIEW: He is very easy to understand and explains every topic thoroughly. He gives you plenty of time to try a problem on your own and walks around class answering any questions you have. If you don't understand something, just raise your hand and he'll check your work and help you out. He goes over every problem in-depth and makes sure you understand.
+
+---
+COURSE: CS110C
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: Lots of homework, Get ready to read, Participation matters
+REVIEW: Every week, there is a new programming assignment that is way too difficult. He doesn't respond to emails and the discussion is hard & no feedback on any of my programs. Just generic responses like "Nice work!" or "Good job!". Like my program didn't even compile or work. The assignments only get more difficult as the semester goes on. DO NOT TAKE!!
+
+---
+COURSE: CS110C
+QUALITY: 1.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: No
+TAGS: n/a
+REVIEW: Dr. O'Leary seems to be faking it until he makes it - and he's not making it. He doesn't provide instruction, just reading assignments. And the book is terrible. He bases homework off the book's code - but the book's code is riddled with errors. He doesn't bother trying to get it to compile, himself. Disorganized, lazy, he may not know the subject.
+
+---
+COURSE: CS110A
+QUALITY: 4.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Amazing lectures
+REVIEW: His lectures are clear and well set up. In the class I took, there wasn't really any homework, but was all classwork, so if you miss the day, you lose a LOT of points. I ended up switching majors, and personally hate programming, but thanks to him, I learned a sufficient amount of Python with minimal pain. Oh, also, READ THE TEXTBOOK! It helped.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Participation matters, Clear grading criteria
+REVIEW: Easy B if you listen in class and do all the hw. There are participation points and also a lot of extra credit stuff. Gives out solutions after each hw and explains the content very well. A is very doable if you complete all the hw and also do the MC questions in the textbook. I didn't have the textbook but still got an A. Totally recommend!!!
+
+---
+COURSE: CS150A
+QUALITY: 5.0
+DIFFICULTY: 2.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Respected
+REVIEW: Intro to MySQL and a little NoSQL databases. Lectures cover talking, assignments, and quizzes. O'Leary is a great lecturer. He's articulate, repeats question for ppl that couldnt hear it, and explains concepts well. Light homework. Database programming is different from OOP. It involves trying to understand the question... and then coding it.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Respected, Lots of homework
+REVIEW: Definitely recommend Daniel, he really cares about the progress you make in your studies. Always available to help out or explain things if you are having a hard time. He made my introductory to programming class fun and interesting! He is probably one of the best professors Ive had during all my academical years!
+
+---
+COURSE: CS110A
+QUALITY: 4.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Gives good feedback, Accessible outside class, Caring
+REVIEW: I just recently finished his class. I found his class okay. He is pretty easy if you have experience with coding before. If you don't, it might get confusing at first but if you pay attention during class you will be fine. It won't be too stressful if you just try. I promise that. You might have to study a little bit before quizzes and the final.
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 4.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Skip class? You won't pass., Accessible outside class, Group projects
+REVIEW: Dr O'Leary is new to CCSF but don't let that stop you from taking his class! He genuinely cares about how you are doing and makes an effort to help everyone improve. Group assignments are a thing so try and get along with the people you sit next to! This is a hard class and you have to put in work outside of class but it is worth it!
+
+---
+COURSE: CS110A
+QUALITY: 5.0
+DIFFICULTY: 3.0
+WOULD_TAKE_AGAIN: Yes
+TAGS: Clear grading criteria, Hilarious, Amazing lectures
+REVIEW: I adore this man. Make sure you refer to him as DOCTOR O'Leary or he gets a little offended. Aside from that he's super easy going. He doesn't like dirty words, but he doesn't really do anything if you say them. Ultimate teller of dad jokes. The book isn't 100% necessary if you attend every class. Love him - would take a class by him again, easily.

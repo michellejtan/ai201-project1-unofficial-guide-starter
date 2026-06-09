@@ -69,18 +69,21 @@ questions and official-vs-student contrasts — it is NOT blended into the opini
 
 **Overlap:** None (0 characters) between separate reviews.
 
-**Reasoning:** This is a review-heavy corpus, not long-form prose. Each RateMyProfessors review is a
-self-contained unit (one student, one opinion, one or two sentences) tagged with the professor and
-often a course and a rating. The natural chunk boundary is the review itself — splitting mid-review
-would tear an opinion in half, and adding overlap across two unrelated reviews would blend two
-students' opinions into one chunk and pollute retrieval. So I chunk *per review* and only fall back
-to sentence-boundary splitting for the rare long review that exceeds the size target. Each chunk's
-metadata records the professor name (and course/department where available) so retrieval and
-attribution stay accurate.
+**Reasoning:** 
 
+This is a review-heavy corpus, not long-form prose. Each RateMyProfessors review is a self-contained unit (one student, one opinion, one or two sentences), tagged with the professor and often a course and a rating. The natural chunk boundary is the review itself — splitting mid-review would tear an opinion in half, and adding overlap across two unrelated reviews would blend two students' opinions into one chunk and pollute retrieval.
+
+So I chunk *per review* and only fall back to sentence-boundary splitting for the rare long review that exceeds the size target. Each chunk's metadata records the professor name (and course/department where available), keeping retrieval and attribution accurate.
+
+Because the natural unit of information is the individual review, overlap is unnecessary. Adding overlap would create redundant chunks and could make retrieval slightly worse — for example, two nearly identical chunks might waste top-k slots instead of showing a broader range of student opinions.
+
+Examples where overlap helps:
+A 5-page guide split into 500-token chunks.
+A long FAQ where a question starts in one chunk and the answer continues in the next.
+A research paper where an important concept spans multiple paragraphs.
 **Document structure (from skimming the collected corpus):** The documents are all short reviews, not
 long guides. Across the 247 review chunks, length is tightly clustered — median ~334 characters
-(~66 words), and the **maximum is only 351 characters** because RateMyProfessors hard-caps review
+(~56 words), and the **maximum is only 351 characters** because RateMyProfessors hard-caps review
 length. Zero reviews exceed 400 chars; 39 are one-liners under 200 chars (e.g. "He is a great
 teacher!!!"). Each review concentrates its whole opinion — professor, workload, recommendation — in
 1–3 sentences, so no key fact is spread across paragraphs that a chunk boundary could split. The 30
@@ -102,8 +105,22 @@ would instead risk merging two unrelated reviews into one chunk.
 
 **Top-k:** 5 chunks per query.
 
-**Production tradeoff reflection:**
+Rationale: 5 chunks provide enough context to capture varied student opinions without overwhelming the LLM. Fewer than 5 risks missing important perspectives; more than 5 increases the chance of retrieving off-topic or conflicting reviews.
 
+Query preprocessing: None needed for the embedding step — `all-MiniLM-L6-v2` is an uncased model, so it lowercases internally and query case/normalization has no effect on the match. Course codes are already stored consistently (no spaces, e.g. `CS110B`). (Stretch idea: if course-based metadata filtering is added later, strip spaces from course codes typed in a query, e.g. "CS 110A" → "CS110A".)
+
+Notes on semantic search:
+
+Embeddings allow retrieval of relevant chunks even if the query does not contain exact words from the document. For example, “who is good at teaching Python?” can retrieve reviews that mention Python courses or positive teaching without explicitly repeating the query terms.
+
+**Production tradeoff reflection:**
+If I were building this for real CCSF students and cost wasn't a concern, I would mostly focus on improving retrieval accuracy. My reviews are very short, written only in English, and there are only about 277 chunks total, so benefits like longer context windows, multilingual support, or faster performance don't matter much for this project.
+
+The bigger challenge is telling apart reviews that sound almost the same. Many reviews use phrases like "great teacher," "easy A," or "would take again," even when they're talking about different professors. Because of that, the system could accidentally retrieve reviews for the wrong instructor. A larger or more advanced embedding model might do a better job noticing the small differences between professors and between positive and negative opinions, which could improve retrieval quality. The downside is that I would lose the simplicity of running everything locally and would likely need to send review data to a paid external service.
+Multilingual support is not required here, but would be a consideration in a campus with international student (I don't think there's a huge populations) reviews.
+Longer context embeddings could capture multi-sentence reviews in one chunk, but for our short-review corpus, per-review chunks are sufficient and more precise.
+Latency would increase with more complex embeddings, so the current setup prioritizes speed and local computation.
+Consider using a larger, higher-dimensional embedding model for more accurate semantic matching, especially if reviews contain nuanced opinions or longer explanations.
 
 ---
 
@@ -200,21 +217,36 @@ the generation prompt is told to treat catalog text as fact and review text as s
      what you expect it to produce, and how you'll verify it matches your spec. -->
 
 **Milestone 3 — Ingestion and chunking:**
-Use Claude (Claude Code). Input: this Chunking Strategy section + a sample saved review file.
-Expect: a `load_documents()` that reads files from `documents/` and a `chunk_reviews()` that splits
-per-review (sentence-boundary fallback over ~400 chars) and attaches professor/course metadata.
-Verify: print the chunk count and spot-check 5 chunks to confirm no review was split mid-sentence
-and metadata is correct.
+Use Claude (Claude Code). Input: the Chunking Strategy section + sample files of each type (a professor
+review file, a Coursicle course page, the catalog file). Expect: a `load_documents()` that reads
+`documents/*.txt` (skipping `_`-prefixed templates) and a chunker emitting one chunk per record for
+BOTH types — review chunks (professor + course embedded in the text, plus tags) and catalog chunks
+(`type=catalog`; course, title, units, prereq, description).
+- *Cleaning:* most cleaning already happened at collection time (the "Helpful" button, thumbs-up/down
+  counts, dates, and attendance/textbook flags were stripped when each review was saved); the loader
+  additionally drops `#` comment lines. After loading, print one document and confirm no leftover UI
+  text or HTML entities remain.
+- *Metadata per chunk:* `source_file` (e.g. `samuel-johnson.txt`), `position` (index of the record
+  within its file — for attribution and "wrong-document" debugging), `professor`, `course`, `quality`,
+  `difficulty`, `would_take_again`, `tags`, `type` (review|catalog), and `source` (original URL).
+- *Verify:* print the total chunk count (expect ~277, well inside the 50–2,000 guideline) and inspect
+  5 representative chunks — each must be self-contained and readable, with no fragments or HTML.
 
 **Milestone 4 — Embedding and retrieval:**
 Use Claude. Input: the Retrieval Approach section (model `all-MiniLM-L6-v2`, top-k 5) + the chunk
-schema from Milestone 3. Expect: code that embeds chunks, builds a ChromaDB collection, and a
-`retrieve(query, k=5)` function. Verify: run 2–3 of my test questions and confirm the returned
-chunks are actually about the right professor.
+schema from Milestone 3. Expect: code that embeds all chunks, builds a persistent ChromaDB collection
+(with the metadata above), and a `retrieve(query, k=5)` function returning chunks + `source_file` +
+**distance scores**. Verify with ≥3 of my eval questions, printing distance scores (aim for top
+results **< 0.5**) and confirming: (a) professor queries return the right professor, (b) a course
+query like CS270 returns reviews across the professors who teach it, and (c) a factual query (CS110B
+prerequisite) surfaces the catalog entry rather than a review.
 
 **Milestone 5 — Generation and interface:**
-Use Claude. Input: the Grounded Generation requirement + my retrieval function. Expect: a Groq call
-with a grounding system prompt, plus a Gradio/Streamlit UI. Verify: ask an out-of-corpus question
-and confirm the system declines instead of hallucinating, and that answers cite the source professor.
-
+Use Claude. Input: the Grounded Generation requirement + the `retrieve()` function. Expect: an
+`ask(question)` function that calls Groq's **`llama-3.3-70b-versatile`** with a grounding system
+prompt (answer ONLY from retrieved chunks; treat catalog text as fact vs. reviews as student opinion;
+say "I don't have enough information on that" when chunks don't cover it) and returns
+`{"answer", "sources"}`, with the source filenames appended programmatically (not left to the LLM).
+Wrap it in a Gradio UI (the `handle_query` skeleton from the milestone). Verify: ask an out-of-corpus
+question and confirm the system declines instead of hallucinating, and that real answers cite sources.
 

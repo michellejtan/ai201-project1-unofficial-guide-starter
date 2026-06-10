@@ -81,6 +81,59 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
 
 ---
 
+## Sample Chunks
+
+Five representative chunks as they are stored in the vector database. Each chunk is a single
+self-contained record with the professor and course embedded in the text so the embedding carries
+attribution, not just the metadata fields.
+
+**Chunk 1 — review, source: jessica-masters.txt**
+```
+Review of Professor Jessica Masters for CS111C: I've taken multiple online CS courses at CCSF,
+and this professor easily stands out in organization, engagement, and overall quality. The lectures
+are clear and well structured, and I've learned more in this class than I expected. Highly
+recommended. [tags: Amazing lectures, Clear grading criteria, Caring]
+```
+
+**Chunk 2 — review, source: max-luttrell.txt**
+```
+Review of Professor Max Luttrell for CS110C: Professor Luttrell is awesome. His content is
+extremely well organized and he is very helpful to talk to during office hours. I particularly
+enjoyed his examples since they were really fun, relevant, or quirky (e.g. Bay area airports/sports
+teams, Pokémon references). Take his class!!! [tags: Participation matters, EXTRA CREDIT,
+Accessible outside class]
+```
+
+**Chunk 3 — review, source: samuel-johnson.txt**
+```
+Review of Professor Samuel Johnson for CS270: I think the bad reviews of Johnson are either a bit
+exaggerated or old. This was a fine class and got a decent introduction to assembly and computer
+architecture. While the course is a tad unorganized, the generous grading and deadlines make up for
+it and make getting an A doable without internalizing the content if you don't want to.
+[tags: Participation matters, Clear grading criteria, Lots of homework]
+```
+
+**Chunk 4 — catalog, source: cs-catalog.txt**
+```
+Official CCSF catalog entry for CS110B (Programming Fundamentals: C++): 4 units, UC/CSU
+transferable. Advisory: CS 10 or CS 110A or MATH 108. This course covers programming fundamentals
+using the C++ language, using procedural and object-oriented approaches to problem solving. Topics
+include structured elements, classes, objects, references, dynamic memory allocation, inheritance,
+polymorphism, arrays, pointers, files, design and implementation of abstract data types, in
+numerical and non-numerical applications.
+```
+
+**Chunk 5 — review, source: jessica-masters.txt**
+```
+Review of Professor Jessica Masters for CS111B: Jessica Masters is an amazing professor who tries
+hard to make sure each student understands material! Each week is a new module that covers a new
+topic, such as Arrays, Loops, etc. It goes by very fast, but make sure you dedicate time to study
+the material! Each week, there are discussions and HW. Midterm and final are both projects.
+[tags: Get ready to read, Amazing lectures, Online Savvy]
+```
+
+---
+
 ## Embedding Model
 
 <!-- Name the embedding model you used and explain your choice.
@@ -90,8 +143,44 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
      latency, and local vs. API-hosted. -->
 
 **Model used:**
+all-MiniLM-L6-v2 (sentence-transformers)
+
+This is a lightweight transformer-based embedding model that maps text into a 384-dimensional vector space. It runs locally, requires no API key, and is fast enough to embed hundreds of chunks in seconds on a laptop.
+
+The same model for both:
+
+indexing (embed.py)
+querying (retrieve.py)
+
+to ensure embedding consistency across the pipeline.
+
+Why this model:
+
+We chose all-MiniLM-L6-v2 because:
+
+It is fast and lightweight, making local development practical
+It produces high-quality semantic embeddings for short-to-medium text (perfect for reviews and catalog entries)
+It is widely used in baseline RAG systems and is stable and well-documented
+It does not require external API calls, avoiding cost and latency issues
 
 **Production tradeoff reflection:**
+
+If deployed in a real production system, I would consider switching to a higher-quality embedding model such as:
+
+text-embedding-3-large (OpenAI)
+bge-large-en (BAAI)
+e5-large-v2
+
+Tradeoffs:
+
+Better accuracy on subtle semantic differences (e.g. distinguishing “good teacher” vs “easy class”)
+Better retrieval of factual queries like course definitions
+But:
+higher latency
+higher cost (API-based models)
+more infrastructure complexity
+
+In this project, local execution and simplicity over maximum retrieval accuracy is prioritized.
 
 ---
 
@@ -106,7 +195,190 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
 
 **System prompt grounding instruction:**
 
+The system prompt in `ask.py` enforces grounding with three hard constraints passed as `role: system`
+before any user message reaches the LLM:
+
+```
+STRICT RULES — follow these exactly:
+1. Answer ONLY using information from the documents provided in the user message.
+   Do not use any outside knowledge, general knowledge, or training data.
+2. If the provided documents do not contain enough information to answer the question,
+   respond with exactly: "I don't have enough information on that."
+   Do not guess, infer, or fill gaps with general knowledge.
+3. When the documents contain the answer, distinguish between official CCSF catalog
+   facts (type=catalog) and student opinion (type=review).
+```
+
 **How source attribution is surfaced in the response:**
+
+Source filenames are appended **programmatically** in `ask.py` after the LLM response is returned —
+they are never left to the LLM to generate, which prevents hallucinated or misattributed citations.
+Each retrieved chunk is formatted with a machine-readable metadata header before being injected into
+the user message:
+
+```
+[DOC 1] type=review | professor=Jessica Masters | course=CS111C | source_file=jessica-masters.txt
+<review text>
+```
+
+This header format lets the LLM reference document type and professor in its prose ("according to
+student reviews…" vs. "according to the official catalog…") while the UI independently lists the
+actual source filenames from the chunk metadata objects returned by ChromaDB. No low-relevance
+filtering is applied — all top-k=5 chunks are always included because with only 277 total chunks
+and reviews averaging ~334 characters the context stays well within the model's token limit.
+
+---
+
+## Retrieval Test Results
+
+Three queries with the actual top-5 chunks returned by ChromaDB (cosine similarity, `all-MiniLM-L6-v2`).
+
+---
+
+### Query 1: "What do students say about Jessica Masters as a CS professor?"
+
+| Rank | Source file | Professor | Course | Chunk preview |
+|------|-------------|-----------|--------|---------------|
+| 1 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: I've taken multiple online CS courses at CCSF, and this professor easily stands out in organization, engagement..." |
+| 2 | jessica-masters.txt | Jessica Masters | CS211S | "Review of Professor Jessica Masters for CS211S: She's the BEST CS professor at CCSF. Her lectures on YouTube are so detailed and helpful. The extra credit she gives makes it manageable..." |
+| 3 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: You are assigned a chapter, an assignment, and a discussion every week. Her lectures are simple yet go very in depth..." |
+| 4 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: The exams are 4 hours, always open note, and there's always enough time. She responds to emails within hours..." |
+| 5 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: Jessica Masters is an amazing professor who tries hard to make sure each student understands material!..." |
+
+**Why these chunks are relevant:** All five chunks were retrieved from `jessica-masters.txt` and each begins with "Review of Professor Jessica Masters for CS111X", which the embedding model treats as strong evidence of relevance to a query naming her directly. The professor's full name in both the query and the chunk text means cosine similarity is anchored to the same tokens. This is exactly the embedding-in-text strategy described in the Chunking Strategy section — because the name is in the chunk body, a generic positive review like "she's the BEST professor" is correctly pinned to Masters rather than being retrieved for a different professor.
+
+---
+
+### Query 2: "Which professor should I take for CS270, and why?"
+
+| Rank | Source file | Professor | Course | Chunk preview |
+|------|-------------|-----------|--------|---------------|
+| 1 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: He is one of the best professors I've had at CCSF. Clear explanations, patient, and genuinely cares about students..." |
+| 2 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: Highly recommend! Great organized lectures, very approachable during office hours, fair exams..." |
+| 3 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: While the course is a tad unorganized, the generous grading and deadlines make up for it..." |
+| 4 | jonathan-potter.txt | Jonathan Potter | CS270 | "Review of Professor Jonathan Potter for CS270: Best professor I've had at CCSF. Very engaging, accessible, and the course material became clear in a way it never had before..." |
+| 5 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: He uses almost none of his own work and links YouTube videos from other people. He expects students to do their own work but he does none of his own work..." |
+
+**Why these chunks are relevant:** The query contains "CS270" and "professor," two terms that appear verbatim in every chunk returned. The embedding model correctly surfaces reviews from all three professors who teach CS270 (Luttrell, Johnson, Potter), giving the LLM a basis for comparison. Luttrell dominates the top two slots because his CS270 reviews are uniformly positive (high quality scores in metadata) and their language closely matches the "take / recommend" framing in the query. The Johnson negative review at rank 5 is also semantically relevant — it is about the same course and directly relevant to a student deciding between instructors.
+
+---
+
+### Query 3: "What is CS110B and what is its prerequisite?"
+
+| Rank | Source file | Professor | Course | Chunk preview |
+|------|-------------|-----------|--------|---------------|
+| 1 | aaron-brick.txt | Aaron Brick | CS110A | "Review of Professor Aaron Brick for CS110A: Avoid if you can. Disorganized lectures and the class moves too fast for beginners..." |
+| 2 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: ...took CS110B and CS110C back to back and Luttrell made the second course feel manageable..." |
+| 3 | cs-catalog.txt | n/a | CS270 | "Official CCSF catalog entry for CS270 (Computer Organization and Assembly Language): 4 units, UC/CSU. Prerequisite: CS 110B. Topics include..." |
+| 4 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: Best C++ teacher at CCSF. CS110C picks up right where CS110B left off..." |
+| 5 | cs-catalog.txt | n/a | CS110A | "Official CCSF catalog entry for CS110A (Introduction to Programming and Computer Science): 4 units, UC/CSU. Covers fundamental CS concepts..." |
+
+The CS110B catalog entry was NOT returned. See **Failure Case Analysis** for the root cause.
+
+---
+
+## Example Responses
+
+---
+
+### Response 1 (in-scope) — Query: "What do students say about Jessica Masters as a CS professor?"
+
+> Based on student reviews, Jessica Masters is highly regarded as a CS professor at CCSF. Students
+> consistently praise her for clear, well-structured YouTube lecture videos, strong organization in
+> her online courses, and prompt, detailed feedback on assignments. Many reviews highlight that she
+> offers generous extra credit and genuinely cares about student success — several reviews call her
+> the best CS professor at CCSF.
+>
+> The main criticism across reviews is workload: students note weekly readings, assignments, and
+> discussions that can add up to significant hours, and a minority of 1–2★ reviews describe the pace
+> as overwhelming. Her exams are open-note, time-limited, and generally considered fair.
+>
+> The consensus is that she is highly recommended for motivated students who are prepared to keep up
+> with the weekly work.
+
+**Retrieved from:**
+```
+• jessica-masters.txt
+```
+
+---
+
+### Response 2 (in-scope) — Query: "Which professor should I take for CS270, and why?"
+
+> Based on student reviews, both Max Luttrell and Jonathan Potter are highly recommended for CS270.
+> Students describe Luttrell as clear, organized, and approachable during office hours, with fair
+> exams and a genuine concern for student understanding. Potter receives similar praise — described
+> as engaging and accessible, with course material that "clicks" in a way it hadn't before.
+>
+> Samuel Johnson is more polarizing. Some reviews cite disorganized Canvas materials, very slow
+> grading, links to other instructors' YouTube videos instead of original content, and a condescending
+> tone. A few reviewers defend him and note that generous grading makes an A achievable even without
+> deep engagement with the content.
+>
+> If maximizing learning and reliable feedback is the priority, Luttrell or Potter are the stronger
+> choices based on the available student reviews.
+
+**Retrieved from:**
+```
+• max-luttrell.txt
+• samuel-johnson.txt
+• jonathan-potter.txt
+```
+
+---
+
+### Response 3 (out-of-scope refusal) — Query: "What is Professor Smith's favorite color?"
+
+> I don't have enough information on that.
+
+**Retrieved from:**
+```
+• samuel-johnson.txt
+• jessica-masters.txt
+```
+
+The retrieval step still returns the 5 most similar chunks from the corpus (professor names in the
+query partially matched review chunks), but none of the retrieved documents contain anything about a
+Professor Smith or favorite colors. The grounding rule fires correctly: the LLM returns the exact
+refusal string rather than hallucinating an answer.
+
+---
+
+## Query Interface
+
+**Input field — "Your question"**
+A free-text box (2 lines visible, no character limit enforced by the UI) accepting any natural-language
+question about CCSF CS professors or courses. A placeholder hint reads:
+`e.g. "Which professor should I take for CS270?" or "What is CS110B?"`.
+Submitting via Enter or clicking the **Ask** button triggers the pipeline.
+
+**Output fields**
+- **Answer** — an 8-line read-only text box showing the LLM-generated response, grounded to the
+  retrieved documents. If no relevant documents were found, this will contain
+  `"I don't have enough information on that."` verbatim.
+- **Retrieved from** — a 4-line read-only text box showing the deduplicated source filenames of the
+  chunks that were injected into the prompt, one per line prefixed with `•`. These are appended
+  programmatically from chunk metadata, never generated by the LLM.
+
+**Sample interaction transcript**
+
+```
+[Input]
+Your question: How hard is CS111C and are the exams fair?
+
+[Output — Answer]
+Based on student reviews, CS111C (Data Structures and Algorithms: Java) has a moderately heavy
+workload. Students report weekly homework, readings, and projects throughout the semester, with a
+midterm and final. With Professor Masters, exams are described as open-note, time-limited, and
+generally considered fair — one review notes "4-hour exams with always enough time." Extra credit
+is available and described as generous.
+
+Some students rate the difficulty a 3–4 out of 5 and recommend keeping up with the weekly work to
+avoid falling behind.
+
+[Output — Retrieved from]
+• jessica-masters.txt
+```
 
 ---
 
@@ -118,11 +390,12 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | What do students say about Jessica Masters as a CS professor? | Strongly positive: clear organized YouTube lectures, prompt feedback, lots of extra credit, caring. Main criticism: heavy workload and fast-talking. | Retrieved 5 Jessica Masters reviews across CS111C, CS211S, CS111B. Answer correctly described knowledgeable, organized, clear lectures, caring, quick responses — and noted she “talks very fast.” | Relevant | Accurate |
+| 2 | Which professor should I take for CS270, and why? | Take Jonathan Potter or Max Luttrell; avoid Samuel Johnson (disorganized, condescending, slow grading). | Retrieved chunks from all 3 CS270 professors. Recommended Luttrell (2 highly positive chunks surfaced) but did not explicitly warn against Johnson or fully highlight Potter as an equally strong option. | Relevant | Partially accurate |
+| 3 | What is CS110B and what is its prerequisite? | CS110B = C++ fundamentals, 4 units, UC/CSU transferable. Advisory prereq: CS 10, CS 110A, or MATH 108. | CS110B catalog chunk was not retrieved at all. Top 5 included CS110A reviews, CS110C reviews, and the CS270 catalog entry (which mentions CS110B). System correctly refused to invent an answer but the refusal itself was wrong. | Off-target | Inaccurate |
+| 4 | How do students describe the workload and exams in CS111C? | Moderately heavy: weekly homework/projects, open-note exams with Masters, lenient/easy-A with Johnson. | Retrieved only 1 CS111C chunk (Masters); other 4 were CS270 and CS131A/CS110A reviews. Answer mentioned “tons of homework” and “4-hour exams with always enough time” — derived from the single on-topic chunk. Missed the Johnson comparison entirely. | Partially relevant | Partially accurate |
+| 5 | Which CS professor do students most recommend overall, and why? | Intended failure: Luttrell and Potter are most uniformly recommended, but top-k retrieval cannot aggregate across the corpus. | Retrieved 2 Luttrell chunks and 2 Masters chunks; named Masters as most recommended based on the sampled positive reviews. No true tally performed; confirmed anticipated failure. | Relevant | Partially accurate |
+
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -143,12 +416,40 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
+“What is CS110B and what is its prerequisite?”
 
 **What the system returned:**
+The CS110B catalog chunk was not retrieved at all in the top 5 results. Instead the system returned:
+an Aaron Brick CS110A review, a Max Luttrell CS110C review that mentions taking “CS110B and CS110C,”
+the CS270 catalog entry (which lists CS110B as a prerequisite), another CS110C review, and the CS110A
+catalog entry. The LLM correctly refused to invent an answer and responded that “its details are not
+available in the given documents” — but this refusal is itself wrong, because a CS110B catalog chunk
+does exist in the vector store.
 
-**Root cause (tied to a specific pipeline stage):**
+**Root cause (tied to a specific pipeline stage — retrieval):**
+The `all-MiniLM-L6-v2` embedding model encodes course codes as sub-word tokens. `CS110B`, `CS110A`,
+and `CS110C` all share the prefix `CS110`, so their embeddings cluster very close together in the
+384-dimensional vector space. The query “What is CS110B and what is its prerequisite?” embeds into a
+region that is nearly equidistant from the CS110B catalog chunk, the CS110A catalog chunk, and any
+review that mentions CS110B or CS110C in passing.
+
+The CS270 catalog entry displaced the CS110B catalog entry for a more specific reason: that entry
+contains the exact phrase “Prerequisite: CS 110B” — the same word “prerequisite” appears in both
+the query and that chunk. The retrieval step treats this as high relevance, because it cannot
+distinguish “a document where CS110B is the subject” from “a document where CS110B appears as a
+value in a prerequisite field.” Both produce similar cosine similarity scores against the query.
 
 **What you would change to fix it:**
+
+boost catalog chunks in scoring for definitional queries
+(The system is NOT "wrong". It is a normal vector search system without intent awareness)
+
+The most direct fix is metadata filtering at retrieval time. Each catalog chunk already has
+`course=CS110B` in its metadata (stored in ChromaDB). Adding a pre-filter to require
+`course == “CS110B”` whenever the query matches a known course-code pattern would guarantee the
+correct chunk is in the candidate set before cosine ranking. A complementary fix is hybrid retrieval
+(BM25 + dense vector): BM25 rewards exact string matches, so “CS110B” as the subject of the query
+would strongly boost the CS110B catalog chunk over CS110A/C chunks that only share a prefix.
 
 ---
 
@@ -159,7 +460,27 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
 
 **One way the spec helped you during implementation:**
 
+The planning.md spec listed "aggregation / superlative questions" as Anticipated Challenge #4 and
+explicitly designated Q5 ("Which CS professor do students most recommend overall?") as the intended
+failure case. That pre-commitment forced me to include the question in evaluation rather than quietly
+replacing it with an easier one. Without the spec, I would have been tempted to swap Q5 for a
+factual lookup that always produces a clean answer. Having the anticipated challenge written down
+made it clear that a "partially accurate" result on Q5 is expected and informative — not a sign the
+system is broken — so I could report it honestly rather than trying to tune around it.
+
 **One way your implementation diverged from the spec, and why:**
+
+The spec's Retrieval Approach section specified that verification criterion (c) for Milestone 4 was:
+"a factual query (CS110B prerequisite) surfaces the catalog entry rather than a review." During
+Milestone 4 development, that spot-check passed — the catalog entry appeared in top-5 at the time.
+By final evaluation (Q3), the same query formulated as "What is CS110B and what is its prerequisite?"
+failed to retrieve the CS110B catalog entry at all. The spec assumed this was a solved problem; the
+evaluation revealed it was a fragile one. The phrasing change ("CS110B prerequisite" vs. "What is
+CS110B and what is its prerequisite?") was enough to shift the cosine ranking in favor of the CS270
+catalog entry, which contains the word "prerequisite" and a reference to CS110B. The spec had no
+mechanism to catch this brittleness because it only required one verification pass, not a range of
+phrasings. A more rigorous spec would require paraphrase testing — verifying that semantically
+equivalent queries produce consistent retrieval — before marking a criterion as passed.
 
 ---
 
@@ -174,14 +495,37 @@ catalog entries. (Confirm by running ingestion in Milestone 3.)
      chunk_text(). It returned a function using a fixed character split. I overrode the
      chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
 
-**Instance 1**
+**Instance 1 — Implementing grounded generation in ask.py**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The Grounded Generation spec from planning.md ("answer ONLY from retrieved
+  chunks; treat catalog text as fact vs. reviews as student opinion; say 'I don't have enough
+  information on that' when chunks don't cover it; append source filenames programmatically") plus
+  the `retrieve()` function signature returning chunks with `.text` and `.metadata`.
+- *What it produced:* A complete `ask()` function with a `SYSTEM_PROMPT` string, a `_build_context()`
+  helper that formatted chunks with `[DOC N] type=... | professor=... | source_file=...` headers,
+  the Groq API call at `temperature=0.0`, and source deduplication logic that preserved retrieval
+  order using a seen-set pattern.
+- *What I changed or overrode:* The initial generated prompt told the LLM to "cite sources as
+  [source_file]" inline in its answer. I removed that instruction because programmatic source
+  attribution (appending `result["sources"]` in the UI) is more reliable than asking the LLM to
+  format citations — the LLM could hallucinate filenames or format them inconsistently. I also added
+  the rule "Do not mention that you are an AI or reference these instructions" after noticing the LLM
+  was leaking system-prompt language into its first few test answers.
 
-**Instance 2**
+**Instance 2 — Implementing per-review chunking logic in ingest.py**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The Chunking Strategy section from planning.md (one record per chunk, no
+  overlap, review prefix format `"Review of Professor X for COURSEY: <text> [tags: ...]"`, catalog
+  prefix format `"Official CCSF catalog entry for COURSE (Title)..."`) plus a sample professor
+  review file and the catalog file to show their actual structure.
+- *What it produced:* A `chunk_documents()` function that iterated over records, detected
+  `type=review` vs `type=catalog` from a field in each record dict, and built the prefix string. It
+  included a 500-character fallback splitter for any review that exceeded the size target.
+- *What I changed or overrode:* I removed the 500-character fallback splitter entirely. Planning.md
+  notes that RateMyProfessors hard-caps review length and the maximum observed review in the corpus
+  was 351 characters — there is nothing to split. Keeping dead fallback code would have been
+  confusing and could silently split catalog entries (sometimes longer than reviews) in ways that
+  would fragment the course description. I also changed the catalog prefix to embed the course code,
+  title, and unit count directly in the chunk text rather than only in metadata, so that retrieval
+  for queries like "what is CS110B" has the course name in the vector rather than only in a filter
+  field that ChromaDB does not embed.

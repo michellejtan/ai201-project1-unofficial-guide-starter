@@ -98,7 +98,7 @@ recommended. [tags: Amazing lectures, Clear grading criteria, Caring]
 **Chunk 2 — review, source: max-luttrell.txt**
 ```
 Review of Professor Max Luttrell for CS110C: Professor Luttrell is awesome. His content is
-extremely well organized and he is very helpful to talk to during office hours. I particularly
+extremely well organized and he is very awesome and helpful to talk to during office hours. I particularly
 enjoyed his examples since they were really fun, relevant, or quirky (e.g. Bay area airports/sports
 teams, Pokémon references). Take his class!!! [tags: Participation matters, EXTRA CREDIT,
 Accessible outside class]
@@ -128,7 +128,7 @@ numerical and non-numerical applications.
 Review of Professor Jessica Masters for CS111B: Jessica Masters is an amazing professor who tries
 hard to make sure each student understands material! Each week is a new module that covers a new
 topic, such as Arrays, Loops, etc. It goes by very fast, but make sure you dedicate time to study
-the material! Each week, there are discussions and HW. Midterm and final are both projects.
+the material! Each week, there are discussions and HW. Midterm and final are both projects up to you.
 [tags: Get ready to read, Amazing lectures, Online Savvy]
 ```
 
@@ -239,13 +239,13 @@ Three queries with the actual top-5 chunks returned by ChromaDB (cosine similari
 
 | Rank | Source file | Professor | Course | Chunk preview |
 |------|-------------|-----------|--------|---------------|
-| 1 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: I've taken multiple online CS courses at CCSF, and this professor easily stands out in organization, engagement..." |
-| 2 | jessica-masters.txt | Jessica Masters | CS211S | "Review of Professor Jessica Masters for CS211S: She's the BEST CS professor at CCSF. Her lectures on YouTube are so detailed and helpful. The extra credit she gives makes it manageable..." |
-| 3 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: You are assigned a chapter, an assignment, and a discussion every week. Her lectures are simple yet go very in depth..." |
-| 4 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: The exams are 4 hours, always open note, and there's always enough time. She responds to emails within hours..." |
-| 5 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: Jessica Masters is an amazing professor who tries hard to make sure each student understands material!..." |
+| 1 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: I've taken multiple online CS courses at CCSF, and this professor easily stands out in organization, engagement, and overall quality. The lectures are clear and well structured..." |
+| 2 | jessica-masters.txt | Jessica Masters | CS211S | "Review of Professor Jessica Masters for CS211S: Best CS professor I've taken. Knows her stuff and runs her classes well. Class structure is clear, gives many opportunities to answer questions, and gives feedback promptly. Only con: she talks very fast, so had to rewind lecture videos often..." |
+| 3 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: You are assigned a chapter, an assignment, and a discussion every week (though discussions are optional later on in the semester). She likes to use ZyBooks, which can be a bit tedious, but her lectures make up for it, they are simple yet go very in depth." |
+| 4 | jessica-masters.txt | Jessica Masters | CS111C | "Review of Professor Jessica Masters for CS111C: Super organized. Textbook, plus excellent online notes, also hours of youtube videos. Tons of homework. Prepare to spend a long, long time on this. However, you'll be learning, and she is totally there for you. Tests are 4 hours long, but always have enough time." |
+| 5 | jessica-masters.txt | Jessica Masters | CS111B | "Review of Professor Jessica Masters for CS111B: Jessica Masters is an amazing professor who tries hard to make sure each student understands material! Each week is a new module that covers a new topic, such as Arrays, Loops, etc. It goes by very fast, but make sure you dedicate time to study the material!..." |
 
-**Why these chunks are relevant:** All five chunks were retrieved from `jessica-masters.txt` and each begins with "Review of Professor Jessica Masters for CS111X", which the embedding model treats as strong evidence of relevance to a query naming her directly. The professor's full name in both the query and the chunk text means cosine similarity is anchored to the same tokens. This is exactly the embedding-in-text strategy described in the Chunking Strategy section — because the name is in the chunk body, a generic positive review like "she's the BEST professor" is correctly pinned to Masters rather than being retrieved for a different professor.
+**Why these chunks are relevant:** All five chunks were retrieved from `jessica-masters.txt` and each begins with "Review of Professor Jessica Masters for CS111X", which the embedding model treats as strong evidence of relevance to a query naming her directly. The professor's full name in both the query and the chunk text means cosine similarity is anchored to the same tokens. This is exactly the embedding-in-text strategy described in the Chunking Strategy section — because the name is in the chunk body, a generic positive review like "Knows her stuff and runs her classes well" is correctly pinned to Masters rather than being retrieved for a different professor.
 
 ---
 
@@ -253,13 +253,13 @@ Three queries with the actual top-5 chunks returned by ChromaDB (cosine similari
 
 | Rank | Source file | Professor | Course | Chunk preview |
 |------|-------------|-----------|--------|---------------|
-| 1 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: He is one of the best professors I've had at CCSF. Clear explanations, patient, and genuinely cares about students..." |
-| 2 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: Highly recommend! Great organized lectures, very approachable during office hours, fair exams..." |
-| 3 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: While the course is a tad unorganized, the generous grading and deadlines make up for it..." |
-| 4 | jonathan-potter.txt | Jonathan Potter | CS270 | "Review of Professor Jonathan Potter for CS270: Best professor I've had at CCSF. Very engaging, accessible, and the course material became clear in a way it never had before..." |
-| 5 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: He uses almost none of his own work and links YouTube videos from other people. He expects students to do their own work but he does none of his own work..." |
+| 1 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: Very friendly guy, made this complicated material much easier to understand. Textbook use is little to none. Only 8 assignments over the year, lowest score dropped. 3 tests, all count. Go to class, the homework frequently utilizes material from in-class exercises..." |
+| 2 | max-luttrell.txt | Max Luttrell | CS270 | "Review of Professor Max Luttrell for CS270: In my opinion, he is the MOST qualified professor to be teaching in CCSF. He has so much experience and mastery over the material that mostly everything he covers is so clear. He is prompt with class, emails, questions plus is a very friendly guy. Seriously, take him." |
+| 3 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: I think the bad reviews of Johnson are either a bit exaggerated or old. I think this was a fine class and got a decent introduction to assembly and computer architecture. While the course is a tad unorganized, the generous grading and deadlines make up for it..." |
+| 4 | jonathan-potter.txt | Jonathan Potter | CS270 | "Review of Professor Jonathan Potter for CS270: I wish every cs professor was like him. His lectures are so incredibly clear that it is difficult to be confused. I took his class a year ago, and I still remember everything we learned. He definitely prepared me for transferring, and upper div architecture classes." |
+| 5 | samuel-johnson.txt | Samuel Johnson | CS270 | "Review of Professor Samuel Johnson for CS270: He uses almost none of his own work and other youtube videos from other people. He expects the students to do their own work but he does none of his own work. He's worried about students plagiarizing but he plagiarized all of his work." |
 
-**Why these chunks are relevant:** The query contains "CS270" and "professor," two terms that appear verbatim in every chunk returned. The embedding model correctly surfaces reviews from all three professors who teach CS270 (Luttrell, Johnson, Potter), giving the LLM a basis for comparison. Luttrell dominates the top two slots because his CS270 reviews are uniformly positive (high quality scores in metadata) and their language closely matches the "take / recommend" framing in the query. The Johnson negative review at rank 5 is also semantically relevant — it is about the same course and directly relevant to a student deciding between instructors.
+**Why these chunks are relevant:** The query contains "CS270" and "professor," two terms that appear verbatim in every chunk returned. The embedding model correctly surfaces reviews from all three professors who teach CS270 (Luttrell, Johnson, Potter), giving the LLM a basis for comparison. Luttrell dominates the top two slots because his CS270 reviews are uniformly positive and their language closely matches the "take / recommend" framing in the query. The Johnson negative review at rank 5 is also semantically relevant — it is about the same course and directly relevant to a student deciding between instructors.
 
 ---
 
@@ -267,11 +267,11 @@ Three queries with the actual top-5 chunks returned by ChromaDB (cosine similari
 
 | Rank | Source file | Professor | Course | Chunk preview |
 |------|-------------|-----------|--------|---------------|
-| 1 | aaron-brick.txt | Aaron Brick | CS110A | "Review of Professor Aaron Brick for CS110A: Avoid if you can. Disorganized lectures and the class moves too fast for beginners..." |
-| 2 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: ...took CS110B and CS110C back to back and Luttrell made the second course feel manageable..." |
-| 3 | cs-catalog.txt | n/a | CS270 | "Official CCSF catalog entry for CS270 (Computer Organization and Assembly Language): 4 units, UC/CSU. Prerequisite: CS 110B. Topics include..." |
-| 4 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: Best C++ teacher at CCSF. CS110C picks up right where CS110B left off..." |
-| 5 | cs-catalog.txt | n/a | CS110A | "Official CCSF catalog entry for CS110A (Introduction to Programming and Computer Science): 4 units, UC/CSU. Covers fundamental CS concepts..." |
+| 1 | aaron-brick.txt | Aaron Brick | CS110A | "Review of Professor Aaron Brick for CS110A: He will tell you a few things but certainly not teach you anything. The text he uses is very confusing. The CS110A class — make sure you take the final, as that seems to be the main thing you have to do to pass the class..." |
+| 2 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: Took Max for CS110B and CS110C. He is one of the kindest professors out there. Lectures are crystal-clear, and if you are ever stuck on a concept, his explanations are extremely helpful. He even allowed us to use an older version of the textbook..." |
+| 3 | cs-catalog.txt | n/a | CS270 | "Official CCSF catalog entry for CS270 (Computer Architecture with Assembly Language): 4 units, UC/CSU transferable. Prerequisite: CS 110B or CS 111B. Topics include von Neumann architecture, instruction cycle, CPU, memory hierarchy, representation of data, translation to assembly from high-level constructs..." |
+| 4 | max-luttrell.txt | Max Luttrell | CS110C | "Review of Professor Max Luttrell for CS110C: Max is one of the best CS teachers here at CCSF. I took him for CS110B and CS110C, and I learned a lot. CS/programming is very difficult to teach but he nailed it! His passion for CS and teaching is obvious..." |
+| 5 | cs-catalog.txt | n/a | CS110A | "Official CCSF catalog entry for CS110A (Introduction to Programming and Computer Science): 4 units, UC/CSU transferable. Advisory: intermediate algebra or higher, plus readiness for college-level English. Broad introduction to fundamental concepts in computer science: storing and transmitting information, designing and implementing algorithms, and computing's social issues." |
 
 The CS110B catalog entry was NOT returned. See **Failure Case Analysis** for the root cause.
 
